@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: ppt-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ppt
+      POSTGRES_PASSWORD: ppt_local_password
+      POSTGRES_DB: personal_progress_tracker
+    ports:
+      - "5433:5432"
+    volumes:
+      - ppt_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ppt -d personal_progress_tracker"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+volumes:
+  ppt_postgres_data:

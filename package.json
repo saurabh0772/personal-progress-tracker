@@ -1,0 +1,23 @@
+{
+  "name": "personal-progress-tracker",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n api,web npm:dev:api npm:dev:web",
+    "dev:api": "npm run build -w @ppt/shared && npm run dev -w @ppt/api",
+    "dev:web": "npm run dev -w @ppt/web",
+    "db:generate": "npm run db:generate -w @ppt/api",
+    "db:migrate": "npm run db:migrate -w @ppt/api",
+    "typecheck": "npm run build -w @ppt/shared && npm run typecheck -w @ppt/api && npm run typecheck -w @ppt/web",
+    "test": "npm run build -w @ppt/shared && npm run test -w @ppt/api",
+    "build": "npm run build -w @ppt/shared && npm run build -w @ppt/api && npm run build -w @ppt/web"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "typescript": "^5.8.3"
+  }
+}
