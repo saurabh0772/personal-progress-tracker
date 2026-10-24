@@ -9,15 +9,12 @@ import {
   FileText,
   Clock,
   Pencil,
-  Trash2,
-  BookOpen,
-  Upload
+  BookOpen
 } from 'lucide-react';
 import { api } from '../../lib/api';
 import type { RoadmapTechnology, RoadmapTopic, RoadmapTopicStatus } from './types';
 import { TopicDetailModal } from './TopicDetailModal';
 import { TopicFormModal } from './TopicFormModal';
-import { JsonImportModal } from './JsonImportModal';
 
 interface TechnologyTopicsViewProps {
   technologyId: string;
@@ -41,7 +38,6 @@ export function TechnologyTopicsView({
   const [selectedTopic, setSelectedTopic] = useState<RoadmapTopic | null>(null);
   const [editingTopic, setEditingTopic] = useState<RoadmapTopic | null>(null);
   const [createModalOpen, setCreateModalOpen] = useState(false);
-  const [importModalOpen, setImportModalOpen] = useState(false);
   const [reordering, setReordering] = useState(false);
 
   const loadData = useCallback(async () => {
@@ -98,39 +94,7 @@ export function TechnologyTopicsView({
     }
   }
 
-  // Delete topic
-  async function handleDeleteTopic(topic: RoadmapTopic, e?: React.MouseEvent) {
-    if (e) e.stopPropagation();
-    if (!window.confirm(`Delete topic "${topic.title}"? This cannot be undone.`)) return;
-    const prevTopics = topics;
-    const prevTech = technology;
 
-    setTopics((prev) => prev.filter((t) => t.id !== topic.id));
-    if (selectedTopic?.id === topic.id) setSelectedTopic(null);
-    setTechnology((prev) => {
-      if (!prev) return prev;
-      const wasCompleted = topic.status === 'Completed';
-      const newTotal = Math.max(0, prev.totalTopics - 1);
-      const newCompleted = wasCompleted ? Math.max(0, prev.completedTopics - 1) : prev.completedTopics;
-      return {
-        ...prev,
-        totalTopics: newTotal,
-        completedTopics: newCompleted,
-        remainingTopics: Math.max(0, newTotal - newCompleted),
-        progressPercentage: newTotal > 0 ? Math.round((newCompleted / newTotal) * 100) : null,
-        hasTopics: newTotal > 0
-      };
-    });
-
-    try {
-      await api(`/api/roadmap/topics/${topic.id}`, { method: 'DELETE' });
-      void onRefreshOverview();
-    } catch (err) {
-      setTopics(prevTopics);
-      setTechnology(prevTech);
-      setError(err instanceof Error ? err.message : 'Failed to delete topic.');
-    }
-  }
 
   // Move topic order up or down
   async function handleMoveOrder(index: number, direction: 'up' | 'down', e: React.MouseEvent) {
@@ -217,14 +181,6 @@ export function TechnologyTopicsView({
           </div>
 
           <div className="tech-header-actions">
-            <button
-              type="button"
-              className="secondary-btn"
-              onClick={() => setImportModalOpen(true)}
-              title="Import topics from JSON file or template"
-            >
-              <Upload size={14} /> <span>Import JSON</span>
-            </button>
             <button
               type="button"
               className="primary-btn"
@@ -339,22 +295,15 @@ export function TechnologyTopicsView({
             </div>
             <h3>No topics added yet</h3>
             <p>
-              No topics added yet. Import a JSON roadmap to get started.
+              No topics added yet. Add your first topic to get started.
             </p>
             <div style={{ display: 'flex', gap: '9px', marginTop: '14px', flexWrap: 'wrap', justifyContent: 'center' }}>
               <button
                 type="button"
                 className="primary-btn"
-                onClick={() => setImportModalOpen(true)}
-              >
-                <Upload size={15} /> <span>Import JSON</span>
-              </button>
-              <button
-                type="button"
-                className="secondary-btn"
                 onClick={() => setCreateModalOpen(true)}
               >
-                <Plus size={15} /> <span>Add Topic Manually</span>
+                <Plus size={15} /> <span>Add Topic</span>
               </button>
             </div>
           </div>
@@ -482,14 +431,6 @@ export function TechnologyTopicsView({
                     >
                       <Pencil size={15} />
                     </button>
-                    <button
-                      type="button"
-                      className="icon-btn delete-action"
-                      title="Delete Topic"
-                      onClick={(e) => handleDeleteTopic(topic, e)}
-                    >
-                      <Trash2 size={15} />
-                    </button>
                   </div>
                 </div>
               );
@@ -543,19 +484,7 @@ export function TechnologyTopicsView({
         />
       )}
 
-      {/* JSON Import Modal */}
-      {importModalOpen && (
-        <JsonImportModal
-          currentTechnologyId={technologyId}
-          currentTechName={technology?.name}
-          onClose={() => setImportModalOpen(false)}
-          onImportSuccess={() => {
-            setImportModalOpen(false);
-            void loadData();
-            onRefreshOverview();
-          }}
-        />
-      )}
+
 
     </div>
   );

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { X, ExternalLink, Check, Pencil, Trash2, Clock, Code2, FileText, CheckCircle2 } from 'lucide-react';
+import { X, ExternalLink, Check, Pencil, Clock, Code2, FileText, CheckCircle2 } from 'lucide-react';
 import { api } from '../../lib/api';
 import type { RoadmapTopic, RoadmapTopicStatus } from './types';
 
@@ -8,7 +8,7 @@ interface TopicDetailModalProps {
   technologyName: string;
   onClose: () => void;
   onUpdate: (updatedTopic: RoadmapTopic) => void;
-  onDelete: (topicId: string) => void;
+  onDelete?: (topicId: string) => void;
 }
 
 export function TopicDetailModal({
@@ -16,7 +16,7 @@ export function TopicDetailModal({
   technologyName,
   onClose,
   onUpdate,
-  onDelete
+  onDelete: _onDelete
 }: TopicDetailModalProps) {
   const [isEditing, setIsEditing] = useState(false);
   const [title, setTitle] = useState(topic.title);
@@ -290,38 +290,23 @@ export function TopicDetailModal({
 
         <div className="modal-footer">
           {!isEditing ? (
-            <>
-              <button
-                type="button"
-                className="icon-btn delete-action"
-                title="Delete Topic"
-                onClick={() => {
-                  if (window.confirm(`Permanently delete topic "${topic.title}"?`)) {
-                    onDelete(topic.id);
-                    onClose();
-                  }
-                }}
-              >
-                <Trash2 size={16} /> Delete Topic
+            <div style={{ display: 'flex', gap: '8px', width: '100%', justifyContent: 'flex-end' }}>
+              <button type="button" className="secondary-btn" onClick={onClose}>
+                Close
               </button>
-              <div style={{ display: 'flex', gap: '8px' }}>
-                <button type="button" className="secondary-btn" onClick={onClose}>
-                  Close
-                </button>
-                <button type="button" className="primary-btn" onClick={() => setIsEditing(true)}>
-                  <Pencil size={14} /> Edit Notes & Info
-                </button>
-              </div>
-            </>
+              <button type="button" className="primary-btn" onClick={() => setIsEditing(true)}>
+                <Pencil size={14} /> Edit Notes & Info
+              </button>
+            </div>
           ) : (
-            <>
+            <div style={{ display: 'flex', gap: '8px', width: '100%', justifyContent: 'flex-end' }}>
               <button type="button" className="secondary-btn" onClick={() => setIsEditing(false)}>
-                Cancel Editing
+                Cancel
               </button>
               <button type="button" className="primary-btn" onClick={handleSave} disabled={saving}>
                 {saving ? 'Saving…' : 'Save Changes'}
               </button>
-            </>
+            </div>
           )}
         </div>
       </div>

@@ -147,7 +147,7 @@ export function TopicFormModal({
           <label className="field full-field">
             Detailed Notes <span className="optional">optional</span>
             <textarea
-              rows={4}
+              rows={2}
               value={notesDetailed}
               onChange={(e) => setNotesDetailed(e.target.value)}
               placeholder="Deep dive notes, gotchas, explanations..."
@@ -157,7 +157,7 @@ export function TopicFormModal({
           <label className="field full-field">
             Code Example or Snippet <span className="optional">optional</span>
             <textarea
-              rows={3}
+              rows={2}
               className="font-mono text-xs"
               value={notesCode}
               onChange={(e) => setNotesCode(e.target.value)}
