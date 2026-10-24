@@ -30,7 +30,11 @@ const allowedOrigins = new Set([
 const isAllowedOrigin = (origin?: string) => {
   if (!origin) return true;
   const cleanOrigin = origin.replace(/\/+$/, '');
-  return allowedOrigins.has(cleanOrigin) || (process.env.NODE_ENV !== 'production' && /^http:\/\/(localhost|127\.0\.0\.1):\d+$/.test(origin));
+  return (
+    allowedOrigins.has(cleanOrigin) ||
+    /\.vercel\.app$/.test(cleanOrigin) ||
+    (process.env.NODE_ENV !== 'production' && /^http:\/\/(localhost|127\.0\.0\.1):\d+$/.test(origin))
+  );
 };
 const jwtSecret = process.env.JWT_SECRET;
 if (!jwtSecret || jwtSecret.length < 32) throw new Error('JWT_SECRET must be set to at least 32 characters');
