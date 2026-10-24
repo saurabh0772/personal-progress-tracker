@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Frontend Development",
+      "technologies": [
+        {
+          "name": "Redux Toolkit",
+          "topics": [
+            {
+              "title": "Why Redux Exists and When Local State Is Enough",
+              "order": 1
+            },
+            {
+              "title": "Redux Core Concepts: Store, State, Actions and Reducers",
+              "order": 2
+            },
+            {
+              "title": "Redux Toolkit Overview and Recommended Redux Patterns",
+              "order": 3
+            },
+            {
+              "title": "Installing Redux Toolkit and React Redux",
+              "order": 4
+            },
+            {
+              "title": "Configuring a Store with configureStore",
+              "order": 5
+            },
+            {
+              "title": "Creating Slices with createSlice",
+              "order": 6
+            },
+            {
+              "title": "Reducers, Actions and Immer-Based Updates",
+              "order": 7
+            },
+            {
+              "title": "Action Payloads and prepare Callbacks",
+              "order": 8
+            },
+            {
+              "title": "Action Creators and Generated Action Types",
+              "order": 9
+            },
+            {
+              "title": "Combining Multiple Slices",
+              "order": 10
+            },
+            {
+              "title": "State Shape and Feature-Based Organization",
+              "order": 11
+            },
+            {
+              "title": "Connecting React with Provider",
+              "order": 12
+            },
+            {
+              "title": "useSelector and Selecting State",
+              "order": 13
+            },
+            {
+              "title": "useDispatch and Dispatching Actions",
+              "order": 14
+            },
+            {
+              "title": "Typed Hooks with TypeScript",
+              "order": 15
+            },
+            {
+              "title": "Derived State and Selector Best Practices",
+              "order": 16
+            },
+            {
+              "title": "Memoized Selectors with createSelector",
+              "order": 17
+            },
+            {
+              "title": "Normalization and Relational State Shape",
+              "order": 18
+            },
+            {
+              "title": "Entity Adapter with createEntityAdapter",
+              "order": 19
+            },
+            {
+              "title": "Handling Loading, Success, Empty and Error States",
+              "order": 20
+            },
+            {
+              "title": "Async Logic Options: createAsyncThunk, RTK Query and Listener Middleware",
+              "order": 21
+            },
+            {
+              "title": "createAsyncThunk: Arguments and Lifecycle Actions",
+              "order": 22
+            },
+            {
+              "title": "Handling Pending, Fulfilled and Rejected States",
+              "order": 23
+            },
+            {
+              "title": "Rejecting with a Typed Error Payload",
+              "order": 24
+            },
+            {
+              "title": "Thunk Extra Arguments and Dependency Injection",
+              "order": 25
+            },
+            {
+              "title": "Cancellation and Request IDs in Async Thunks",
+              "order": 26
+            },
+            {
+              "title": "Avoiding Duplicate Requests and Stale Responses",
+              "order": 27
+            },
+            {
+              "title": "Listener Middleware and Reactive Workflows",
+              "order": 28
+            },
+            {
+              "title": "Middleware Concepts and Middleware Order",
+              "order": 29
+            },
+            {
+              "title": "Writing Custom Redux Middleware",
+              "order": 30
+            },
+            {
+              "title": "Redux DevTools and Action History",
+              "order": 31
+            },
+            {
+              "title": "Serializability and Immutability Checks",
+              "order": 32
+            },
+            {
+              "title": "RTK Query: Purpose and Architecture",
+              "order": 33
+            },
+            {
+              "title": "Defining an API with createApi",
+              "order": 34
+            },
+            {
+              "title": "Queries, Query Arguments and Generated Hooks",
+              "order": 35
+            },
+            {
+              "title": "Mutations and Generated Hooks",
+              "order": 36
+            },
+            {
+              "title": "Cache Keys and Query Deduplication",
+              "order": 37
+            },
+            {
+              "title": "Tag Types, ProvidesTags and InvalidatesTags",
+              "order": 38
+            },
+            {
+              "title": "Manual Cache Updates and updateQueryData",
+              "order": 39
+            },
+            {
+              "title": "Optimistic Updates and Rollback",
+              "order": 40
+            },
+            {
+              "title": "Cache Lifetime, Refetching and Polling",
+              "order": 41
+            },
+            {
+              "title": "Conditional Fetching and Skip Patterns",
+              "order": 42
+            },
+            {
+              "title": "Lazy Queries and Triggered Requests",
+              "order": 43
+            },
+            {
+              "title": "Pagination and Infinite Query Patterns",
+              "order": 44
+            },
+            {
+              "title": "Transforming Responses and Error Handling",
+              "order": 45
+            },
+            {
+              "title": "Base Query Setup and Authentication Headers",
+              "order": 46
+            },
+            {
+              "title": "Reauthentication and Token Refresh Patterns",
+              "order": 47
+            },
+            {
+              "title": "RTK Query with TypeScript",
+              "order": 48
+            },
+            {
+              "title": "RTK Query Testing and API Mocking",
+              "order": 49
+            },
+            {
+              "title": "Choosing RTK Query vs createAsyncThunk",
+              "order": 50
+            },
+            {
+              "title": "Persisting State: Benefits, Risks and Limits",
+              "order": 51
+            },
+            {
+              "title": "Redux Persist Concepts and Rehydration",
+              "order": 52
+            },
+            {
+              "title": "Resetting State on Logout and User Changes",
+              "order": 53
+            },
+            {
+              "title": "State Isolation for Multi-Tenant Applications",
+              "order": 54
+            },
+            {
+              "title": "Keeping Secrets and Sensitive Data Out of Redux",
+              "order": 55
+            },
+            {
+              "title": "Redux with React Router",
+              "order": 56
+            },
+            {
+              "title": "Redux with Forms and Form Libraries",
+              "order": 57
+            },
+            {
+              "title": "Redux in Large Applications and Feature Boundaries",
+              "order": 58
+            },
+            {
+              "title": "Testing Reducers and Slice Logic",
+              "order": 59
+            },
+            {
+              "title": "Testing Selectors and Derived Data",
+              "order": 60
+            },
+            {
+              "title": "Testing Thunks and Async Workflows",
+              "order": 61
+            },
+            {
+              "title": "Testing Components Connected to Redux",
+              "order": 62
+            },
+            {
+              "title": "Testing RTK Query API Behavior",
+              "order": 63
+            },
+            {
+              "title": "Performance: Selector Stability and Avoiding Re-renders",
+              "order": 64
+            },
+            {
+              "title": "Common Mistakes: Mutating Outside Reducers and Storing Derived State",
+              "order": 65
+            },
+            {
+              "title": "Common Mistakes: Non-Serializable Values and Overusing Global State",
+              "order": 66
+            },
+            {
+              "title": "Debugging Stale State and Unexpected Dispatches",
+              "order": 67
+            },
+            {
+              "title": "Redux Toolkit with JavaScript",
+              "order": 68
+            },
+            {
+              "title": "Redux Toolkit with TypeScript",
+              "order": 69
+            },
+            {
+              "title": "Build a CRUD Feature with Slices and Async Thunks",
+              "order": 70
+            },
+            {
+              "title": "Build a Server-State Feature with RTK Query",
+              "order": 71
+            },
+            {
+              "title": "Add Optimistic Updates and Error Recovery",
+              "order": 72
+            },
+            {
+              "title": "Refactor a Component Tree to Use Appropriate State Boundaries",
+              "order": 73
+            },
+            {
+              "title": "Redux Toolkit Interview Questions and Practical Exercises",
+              "order": 74
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

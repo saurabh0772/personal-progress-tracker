@@ -1,0 +1,407 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Programming Languages",
+      "technologies": [
+        {
+          "name": "JavaScript",
+          "topics": [
+            {
+              "title": "JavaScript Setup, Runtime and Strict Mode",
+              "order": 1
+            },
+            {
+              "title": "Variables: var, let and const",
+              "order": 2
+            },
+            {
+              "title": "Primitive Types and Reference Types",
+              "order": 3
+            },
+            {
+              "title": "typeof, instanceof and Type Checking",
+              "order": 4
+            },
+            {
+              "title": "Type Conversion and Type Coercion",
+              "order": 5
+            },
+            {
+              "title": "Truthy, Falsy and Boolean Conversion",
+              "order": 6
+            },
+            {
+              "title": "Equality: ==, === and Object.is",
+              "order": 7
+            },
+            {
+              "title": "Arithmetic, Comparison, Logical and Bitwise Operators",
+              "order": 8
+            },
+            {
+              "title": "Nullish Coalescing and Optional Chaining",
+              "order": 9
+            },
+            {
+              "title": "Conditional Statements and Switch",
+              "order": 10
+            },
+            {
+              "title": "Loops: for, while, do...while and for...of",
+              "order": 11
+            },
+            {
+              "title": "Break, Continue and Labeled Statements",
+              "order": 12
+            },
+            {
+              "title": "Strings, Template Literals and String Methods",
+              "order": 13
+            },
+            {
+              "title": "Numbers, Math and Floating-Point Precision",
+              "order": 14
+            },
+            {
+              "title": "BigInt and Safe Integer Limits",
+              "order": 15
+            },
+            {
+              "title": "Dates, Time Zones and Intl Formatting",
+              "order": 16
+            },
+            {
+              "title": "Arrays and Array Mutation",
+              "order": 17
+            },
+            {
+              "title": "Array Iteration: map, filter, reduce and forEach",
+              "order": 18
+            },
+            {
+              "title": "Array Search, Sorting and Flattening",
+              "order": 19
+            },
+            {
+              "title": "Objects, Properties and Property Descriptors",
+              "order": 20
+            },
+            {
+              "title": "Object.keys, values, entries and Object Utilities",
+              "order": 21
+            },
+            {
+              "title": "Destructuring, Spread and Rest Syntax",
+              "order": 22
+            },
+            {
+              "title": "Shallow Copy, Deep Copy and structuredClone",
+              "order": 23
+            },
+            {
+              "title": "Optional Properties, Computed Keys and Property Access",
+              "order": 24
+            },
+            {
+              "title": "Map and Set",
+              "order": 25
+            },
+            {
+              "title": "WeakMap and WeakSet",
+              "order": 26
+            },
+            {
+              "title": "Functions: Declaration, Expression and Arrow Functions",
+              "order": 27
+            },
+            {
+              "title": "Parameters, Default Values and Rest Parameters",
+              "order": 28
+            },
+            {
+              "title": "Return Values, Early Returns and Function Composition",
+              "order": 29
+            },
+            {
+              "title": "Lexical Scope and Scope Chain",
+              "order": 30
+            },
+            {
+              "title": "Hoisting and Temporal Dead Zone",
+              "order": 31
+            },
+            {
+              "title": "Closures and Practical Closure Patterns",
+              "order": 32
+            },
+            {
+              "title": "this Binding Rules",
+              "order": 33
+            },
+            {
+              "title": "call, apply and bind",
+              "order": 34
+            },
+            {
+              "title": "Execution Context and Call Stack",
+              "order": 35
+            },
+            {
+              "title": "Lexical Environment and Environment Records",
+              "order": 36
+            },
+            {
+              "title": "Prototypes and Prototype Chain",
+              "order": 37
+            },
+            {
+              "title": "Object.create and Property Inheritance",
+              "order": 38
+            },
+            {
+              "title": "Constructor Functions and new",
+              "order": 39
+            },
+            {
+              "title": "Classes, Constructors and Instance Methods",
+              "order": 40
+            },
+            {
+              "title": "Inheritance, super and Method Overriding",
+              "order": 41
+            },
+            {
+              "title": "Static Methods, Getters and Setters",
+              "order": 42
+            },
+            {
+              "title": "Private Class Fields and Encapsulation",
+              "order": 43
+            },
+            {
+              "title": "Composition vs Inheritance",
+              "order": 44
+            },
+            {
+              "title": "Error Types, throw and try/catch/finally",
+              "order": 45
+            },
+            {
+              "title": "Custom Errors and Error Propagation",
+              "order": 46
+            },
+            {
+              "title": "Callbacks and Callback-Based APIs",
+              "order": 47
+            },
+            {
+              "title": "Promises: States and Chaining",
+              "order": 48
+            },
+            {
+              "title": "Promise Methods: all, allSettled, race and any",
+              "order": 49
+            },
+            {
+              "title": "Async/Await and Error Handling",
+              "order": 50
+            },
+            {
+              "title": "Sequential vs Parallel Asynchronous Work",
+              "order": 51
+            },
+            {
+              "title": "Event Loop and Runtime Queues",
+              "order": 52
+            },
+            {
+              "title": "Microtasks vs Tasks and Timer Ordering",
+              "order": 53
+            },
+            {
+              "title": "setTimeout, setInterval and Timer Limitations",
+              "order": 54
+            },
+            {
+              "title": "Promise Resolution and Thenable Assimilation",
+              "order": 55
+            },
+            {
+              "title": "ES Modules: import, export and Module Boundaries",
+              "order": 56
+            },
+            {
+              "title": "CommonJS: require, exports and module.exports",
+              "order": 57
+            },
+            {
+              "title": "ESM vs CommonJS and Interoperability",
+              "order": 58
+            },
+            {
+              "title": "Package.json, npm Scripts and Dependency Basics",
+              "order": 59
+            },
+            {
+              "title": "JSON Parsing, Stringifying and Serialization Limits",
+              "order": 60
+            },
+            {
+              "title": "Regular Expressions and Common Patterns",
+              "order": 61
+            },
+            {
+              "title": "Iterables, Iterators and Symbol.iterator",
+              "order": 62
+            },
+            {
+              "title": "Generators and yield",
+              "order": 63
+            },
+            {
+              "title": "Symbols and Well-Known Symbols",
+              "order": 64
+            },
+            {
+              "title": "Functional Programming: Pure Functions and Immutability",
+              "order": 65
+            },
+            {
+              "title": "Higher-Order Functions and Function Composition",
+              "order": 66
+            },
+            {
+              "title": "Currying, Partial Application and Memoization",
+              "order": 67
+            },
+            {
+              "title": "Debouncing and Throttling",
+              "order": 68
+            },
+            {
+              "title": "DOM Selection, Creation and Manipulation",
+              "order": 69
+            },
+            {
+              "title": "DOM Events, Bubbling, Capturing and Delegation",
+              "order": 70
+            },
+            {
+              "title": "Forms, Input Events and Client-Side Validation",
+              "order": 71
+            },
+            {
+              "title": "Browser Fetch API and HTTP Request Handling",
+              "order": 72
+            },
+            {
+              "title": "AbortController and Request Cancellation",
+              "order": 73
+            },
+            {
+              "title": "LocalStorage, SessionStorage and Cookies",
+              "order": 74
+            },
+            {
+              "title": "URL, URLSearchParams and Browser History Basics",
+              "order": 75
+            },
+            {
+              "title": "Browser Rendering, Reflow and Repaint Basics",
+              "order": 76
+            },
+            {
+              "title": "JavaScript in Node.js vs the Browser",
+              "order": 77
+            },
+            {
+              "title": "Node.js Event Loop and libuv Overview",
+              "order": 78
+            },
+            {
+              "title": "EventEmitter, Buffer and Stream Fundamentals",
+              "order": 79
+            },
+            {
+              "title": "Memory Management, Garbage Collection and Memory Leaks",
+              "order": 80
+            },
+            {
+              "title": "Performance Profiling and JavaScript Debugging",
+              "order": 81
+            },
+            {
+              "title": "Source Maps, Breakpoints and DevTools Workflow",
+              "order": 82
+            },
+            {
+              "title": "Security Basics: XSS, Prototype Pollution and Unsafe Evaluation",
+              "order": 83
+            },
+            {
+              "title": "Handling Untrusted Data and Safe DOM Updates",
+              "order": 84
+            },
+            {
+              "title": "Testing JavaScript: Unit Tests, Mocks and Assertions",
+              "order": 85
+            },
+            {
+              "title": "Writing Tests for Async Code",
+              "order": 86
+            },
+            {
+              "title": "Polyfill Concepts and Feature Detection",
+              "order": 87
+            },
+            {
+              "title": "Implementing map, filter and reduce",
+              "order": 88
+            },
+            {
+              "title": "Implementing debounce, throttle and deep clone",
+              "order": 89
+            },
+            {
+              "title": "Implementing Promise.all and a Basic Promise Utility",
+              "order": 90
+            },
+            {
+              "title": "Common Output-Based Questions: Coercion, Scope and Hoisting",
+              "order": 91
+            },
+            {
+              "title": "Common Output-Based Questions: this, Closures and Prototypes",
+              "order": 92
+            },
+            {
+              "title": "Common Output-Based Questions: Promises and Event Loop",
+              "order": 93
+            },
+            {
+              "title": "Array, String and Object Coding Problems",
+              "order": 94
+            },
+            {
+              "title": "Debugging and Refactoring Real JavaScript Code",
+              "order": 95
+            },
+            {
+              "title": "Build a Small Browser App Using Modules and Fetch",
+              "order": 96
+            },
+            {
+              "title": "Build a Node.js Utility Using Async I/O",
+              "order": 97
+            },
+            {
+              "title": "JavaScript Interview Review and Mixed Practice",
+              "order": 98
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

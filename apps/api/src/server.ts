@@ -1,3 +1,5 @@
+import dns from 'node:dns';
+try { dns.setDefaultResultOrder('ipv4first'); } catch {}
 import dotenv from 'dotenv';
 dotenv.config({ path: '../../.env' });
 dotenv.config();

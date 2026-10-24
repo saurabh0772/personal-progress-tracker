@@ -1,0 +1,347 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "API & Security",
+      "technologies": [
+        {
+          "name": "Authorization",
+          "topics": [
+            {
+              "title": "Authorization Fundamentals: Policies, Permissions and Enforcement",
+              "order": 1
+            },
+            {
+              "title": "Authentication vs Authorization",
+              "order": 2
+            },
+            {
+              "title": "Principals, Subjects, Resources and Actions",
+              "order": 3
+            },
+            {
+              "title": "Identity, Roles, Groups, Permissions and Policies",
+              "order": 4
+            },
+            {
+              "title": "Authorization Decision vs Enforcement Points",
+              "order": 5
+            },
+            {
+              "title": "Default Deny and Fail-Secure Design",
+              "order": 6
+            },
+            {
+              "title": "Least Privilege and Need-to-Know",
+              "order": 7
+            },
+            {
+              "title": "Role-Based Access Control (RBAC)",
+              "order": 8
+            },
+            {
+              "title": "RBAC Roles, Permissions and Role Assignment",
+              "order": 9
+            },
+            {
+              "title": "Role Hierarchies and Inheritance",
+              "order": 10
+            },
+            {
+              "title": "Permission Granularity and Role Explosion",
+              "order": 11
+            },
+            {
+              "title": "Attribute-Based Access Control (ABAC)",
+              "order": 12
+            },
+            {
+              "title": "Policy-Based Access Control and Policy Engines",
+              "order": 13
+            },
+            {
+              "title": "Relationship-Based Access Control (ReBAC) Overview",
+              "order": 14
+            },
+            {
+              "title": "Access Control Lists (ACLs)",
+              "order": 15
+            },
+            {
+              "title": "Capability-Based Security Overview",
+              "order": 16
+            },
+            {
+              "title": "Discretionary vs Mandatory Access Control",
+              "order": 17
+            },
+            {
+              "title": "Coarse-Grained vs Fine-Grained Authorization",
+              "order": 18
+            },
+            {
+              "title": "Route-Level Authorization",
+              "order": 19
+            },
+            {
+              "title": "Service-Layer Authorization",
+              "order": 20
+            },
+            {
+              "title": "Data-Layer and Query-Level Authorization",
+              "order": 21
+            },
+            {
+              "title": "Object-Level Authorization and IDOR Prevention",
+              "order": 22
+            },
+            {
+              "title": "Function-Level Authorization and Privilege Escalation",
+              "order": 23
+            },
+            {
+              "title": "Field-Level Authorization and Sensitive Attributes",
+              "order": 24
+            },
+            {
+              "title": "Tenant-Level Authorization and Tenant Isolation",
+              "order": 25
+            },
+            {
+              "title": "Ownership Checks and Resource Relationships",
+              "order": 26
+            },
+            {
+              "title": "Authorization Middleware in Node.js",
+              "order": 27
+            },
+            {
+              "title": "Authorization in Express.js",
+              "order": 28
+            },
+            {
+              "title": "Authorization in Fastify",
+              "order": 29
+            },
+            {
+              "title": "Authorization in Next.js Server Components and Route Handlers",
+              "order": 30
+            },
+            {
+              "title": "Frontend Route Guards vs Backend Enforcement",
+              "order": 31
+            },
+            {
+              "title": "UI Permission Hiding Is Not Security",
+              "order": 32
+            },
+            {
+              "title": "Authorization for REST API Methods",
+              "order": 33
+            },
+            {
+              "title": "Authorization for GraphQL Resolvers",
+              "order": 34
+            },
+            {
+              "title": "Authorization for WebSockets and Real-Time Events",
+              "order": 35
+            },
+            {
+              "title": "Authorization for Background Jobs and Queues",
+              "order": 36
+            },
+            {
+              "title": "Service-to-Service Authorization",
+              "order": 37
+            },
+            {
+              "title": "OAuth Scopes and Delegated Permissions",
+              "order": 38
+            },
+            {
+              "title": "JWT Claims and Authorization Decisions",
+              "order": 39
+            },
+            {
+              "title": "Session Identity and Permission Resolution",
+              "order": 40
+            },
+            {
+              "title": "Permissions in Multi-Tenant SaaS Applications",
+              "order": 41
+            },
+            {
+              "title": "Database Schema for Roles and Permissions",
+              "order": 42
+            },
+            {
+              "title": "Many-to-Many Role and Permission Relationships",
+              "order": 43
+            },
+            {
+              "title": "Dynamic Permissions and Policy Evaluation",
+              "order": 44
+            },
+            {
+              "title": "Permission Caching and Cache Invalidation",
+              "order": 45
+            },
+            {
+              "title": "Revoking Access and Handling Stale Permissions",
+              "order": 46
+            },
+            {
+              "title": "Authorization Consistency Across Services",
+              "order": 47
+            },
+            {
+              "title": "Policy Versioning and Safe Policy Changes",
+              "order": 48
+            },
+            {
+              "title": "Centralized Policy Engine vs Distributed Checks",
+              "order": 49
+            },
+            {
+              "title": "OPA and Rego Policy Concepts",
+              "order": 50
+            },
+            {
+              "title": "Relationship-Based Models and Zanzibar-Style Systems",
+              "order": 51
+            },
+            {
+              "title": "Resource Hierarchies and Inherited Access",
+              "order": 52
+            },
+            {
+              "title": "Temporary Grants and Expiring Permissions",
+              "order": 53
+            },
+            {
+              "title": "Delegation, Impersonation and Admin Access",
+              "order": 54
+            },
+            {
+              "title": "Separation of Duties and Approval Workflows",
+              "order": 55
+            },
+            {
+              "title": "Break-Glass Access and Emergency Controls",
+              "order": 56
+            },
+            {
+              "title": "Audit Logging for Authorization Decisions",
+              "order": 57
+            },
+            {
+              "title": "Explaining and Debugging Access Denials",
+              "order": 58
+            },
+            {
+              "title": "Authorization Failure Responses: 401 vs 403",
+              "order": 59
+            },
+            {
+              "title": "Preventing Information Leakage in Error Responses",
+              "order": 60
+            },
+            {
+              "title": "Enumeration Risks and Consistent Resource Responses",
+              "order": 61
+            },
+            {
+              "title": "Access Control Testing Strategy",
+              "order": 62
+            },
+            {
+              "title": "Unit Testing Permission Policies",
+              "order": 63
+            },
+            {
+              "title": "Integration Testing Across Roles and Tenants",
+              "order": 64
+            },
+            {
+              "title": "Negative Tests for Unauthorized Access",
+              "order": 65
+            },
+            {
+              "title": "Property-Based and Matrix-Based Permission Testing",
+              "order": 66
+            },
+            {
+              "title": "Security Testing for IDOR and Privilege Escalation",
+              "order": 67
+            },
+            {
+              "title": "Authorization Threat Modeling",
+              "order": 68
+            },
+            {
+              "title": "Common Access Control Vulnerabilities",
+              "order": 69
+            },
+            {
+              "title": "Race Conditions in Permission Changes",
+              "order": 70
+            },
+            {
+              "title": "TOCTOU Risks and Rechecking Authorization",
+              "order": 71
+            },
+            {
+              "title": "Authorization for File Downloads and Object Storage",
+              "order": 72
+            },
+            {
+              "title": "Authorization for Reports, Exports and Bulk Actions",
+              "order": 73
+            },
+            {
+              "title": "Authorization for Search Results and Pagination",
+              "order": 74
+            },
+            {
+              "title": "Authorization for Admin Panels and Support Tools",
+              "order": 75
+            },
+            {
+              "title": "Compliance, Auditability and Access Reviews",
+              "order": 76
+            },
+            {
+              "title": "Access Reviews and Permission Cleanup",
+              "order": 77
+            },
+            {
+              "title": "Monitoring Authorization Failures and Anomalies",
+              "order": 78
+            },
+            {
+              "title": "Build RBAC for a REST API",
+              "order": 79
+            },
+            {
+              "title": "Build Tenant-Aware Resource Authorization",
+              "order": 80
+            },
+            {
+              "title": "Implement Fine-Grained Permissions for a SaaS App",
+              "order": 81
+            },
+            {
+              "title": "Design and Test a Policy-Based Authorization Layer",
+              "order": 82
+            },
+            {
+              "title": "Authorization Interview Questions and Practical Exercises",
+              "order": 83
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

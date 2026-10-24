@@ -1,0 +1,60 @@
+export interface BuiltInRoadmapTopic {
+  title: string;
+  order: number;
+  description?: string;
+}
+
+export interface BuiltInRoadmap {
+  category: string;
+  technology: string;
+  topics: BuiltInRoadmapTopic[];
+}
+
+export const builtInRoadmaps: BuiltInRoadmap[] = [
+  {
+    category: 'Development',
+    technology: 'HTML',
+    topics: [
+      { title: 'HTML Introduction', order: 1 },
+      { title: 'HTML Document Structure', order: 2 },
+      { title: 'Tags, Elements & Attributes', order: 3 },
+      { title: 'Headings & Paragraphs', order: 4 },
+      { title: 'Text Formatting', order: 5 },
+      { title: 'Block-Level & Inline Elements', order: 6 },
+      { title: 'HTML Comments', order: 7 },
+      { title: 'Lists — Ordered, Unordered & Description', order: 8 },
+      { title: 'Links & Navigation', order: 9 },
+      { title: 'File Paths & URLs', order: 10 },
+      { title: 'Images & Alt Attributes', order: 11 },
+      { title: 'Audio & Video', order: 12 },
+      { title: 'Tables', order: 13 },
+      { title: 'Forms & Form Attributes', order: 14 },
+      { title: 'Input Types', order: 15 },
+      { title: 'Labels, Buttons & Textarea', order: 16 },
+      { title: 'Select, Checkbox & Radio', order: 17 },
+      { title: 'Form Validation', order: 18 },
+      { title: 'Semantic HTML', order: 19 },
+      { title: 'HTML Global Attributes', order: 20 },
+      { title: 'id & class', order: 21 },
+      { title: 'data-* Attributes', order: 22 },
+      { title: 'HTML Entities', order: 23 },
+      { title: 'Character Encoding & UTF-8', order: 24 },
+      { title: 'Meta Tags', order: 25 },
+      { title: 'Viewport & Responsive HTML', order: 26 },
+      { title: 'div & span', order: 27 },
+      { title: 'iframe', order: 28 },
+      { title: 'details & summary', order: 29 },
+      { title: 'figure & figcaption', order: 30 },
+      { title: 'HTML Accessibility Basics', order: 31 },
+      { title: 'ARIA Basics', order: 32 },
+      { title: 'SEO Basics — Title, Description & Headings', order: 33 },
+      { title: 'Script & Stylesheet Linking', order: 34 },
+      { title: 'async, defer & Module Scripts', order: 35 },
+      { title: 'HTML Forms & HTTP Methods — GET vs POST', order: 36 },
+      { title: 'HTML Validation & Common Errors', order: 37 },
+      { title: 'HTML Best Practices', order: 38 },
+      { title: 'Build a Semantic Profile Page', order: 39 },
+      { title: 'Build a Registration Form', order: 40 }
+    ]
+  }
+];

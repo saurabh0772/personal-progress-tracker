@@ -1,0 +1,327 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Web Fundamentals",
+      "technologies": [
+        {
+          "name": "CSS",
+          "topics": [
+            {
+              "title": "How CSS Works with HTML and the Browser",
+              "order": 1
+            },
+            {
+              "title": "Adding CSS: Inline, Internal and External Stylesheets",
+              "order": 2
+            },
+            {
+              "title": "CSS Syntax, Rulesets, Selectors and Declarations",
+              "order": 3
+            },
+            {
+              "title": "Element, Class, ID, Universal and Group Selectors",
+              "order": 4
+            },
+            {
+              "title": "Attribute Selectors",
+              "order": 5
+            },
+            {
+              "title": "Descendant, Child, Adjacent and General Sibling Selectors",
+              "order": 6
+            },
+            {
+              "title": "Pseudo-Classes and Common State Selectors",
+              "order": 7
+            },
+            {
+              "title": "Pseudo-Elements and Generated Content",
+              "order": 8
+            },
+            {
+              "title": "Selector Specificity and the Cascade",
+              "order": 9
+            },
+            {
+              "title": "Inheritance, Initial, Inherit, Unset and Revert",
+              "order": 10
+            },
+            {
+              "title": "Source Order and Cascade Layers",
+              "order": 11
+            },
+            {
+              "title": "CSS Values, Units and Functions",
+              "order": 12
+            },
+            {
+              "title": "Absolute, Relative, Viewport and Container Units",
+              "order": 13
+            },
+            {
+              "title": "Colors, Transparency and Color Functions",
+              "order": 14
+            },
+            {
+              "title": "Typography: Font Families, Sizes, Weight and Line Height",
+              "order": 15
+            },
+            {
+              "title": "Web Fonts and Font Loading",
+              "order": 16
+            },
+            {
+              "title": "Text Alignment, Spacing, Wrapping and Overflow",
+              "order": 17
+            },
+            {
+              "title": "Box Model: Content, Padding, Border and Margin",
+              "order": 18
+            },
+            {
+              "title": "box-sizing and Consistent Sizing",
+              "order": 19
+            },
+            {
+              "title": "Width, Height, Min/Max Constraints",
+              "order": 20
+            },
+            {
+              "title": "Display: block, inline, inline-block and none",
+              "order": 21
+            },
+            {
+              "title": "Normal Flow and Formatting Contexts",
+              "order": 22
+            },
+            {
+              "title": "Margin Collapsing and Common Layout Issues",
+              "order": 23
+            },
+            {
+              "title": "Position: static, relative, absolute, fixed and sticky",
+              "order": 24
+            },
+            {
+              "title": "Stacking Context and z-index",
+              "order": 25
+            },
+            {
+              "title": "Overflow, Clipping and Scroll Containers",
+              "order": 26
+            },
+            {
+              "title": "Float and Clear: Legacy Layout Use Cases",
+              "order": 27
+            },
+            {
+              "title": "Flexbox: Main Axis, Cross Axis and Alignment",
+              "order": 28
+            },
+            {
+              "title": "Flex Sizing, Grow, Shrink and Basis",
+              "order": 29
+            },
+            {
+              "title": "Flex Wrapping, Gap and Responsive Patterns",
+              "order": 30
+            },
+            {
+              "title": "CSS Grid: Tracks, Lines and Areas",
+              "order": 31
+            },
+            {
+              "title": "Grid Auto Placement and Implicit Tracks",
+              "order": 32
+            },
+            {
+              "title": "minmax, repeat, auto-fit and auto-fill",
+              "order": 33
+            },
+            {
+              "title": "Grid and Flexbox: Choosing the Right Tool",
+              "order": 34
+            },
+            {
+              "title": "Responsive Design and Mobile-First CSS",
+              "order": 35
+            },
+            {
+              "title": "Media Queries and Breakpoints",
+              "order": 36
+            },
+            {
+              "title": "Container Queries",
+              "order": 37
+            },
+            {
+              "title": "Fluid Typography and clamp()",
+              "order": 38
+            },
+            {
+              "title": "Responsive Images and Layout Considerations",
+              "order": 39
+            },
+            {
+              "title": "CSS Custom Properties and Design Tokens",
+              "order": 40
+            },
+            {
+              "title": "calc(), min(), max() and clamp()",
+              "order": 41
+            },
+            {
+              "title": "Backgrounds, Gradients and Multiple Backgrounds",
+              "order": 42
+            },
+            {
+              "title": "Borders, Border Radius and Outlines",
+              "order": 43
+            },
+            {
+              "title": "Box Shadows and Text Shadows",
+              "order": 44
+            },
+            {
+              "title": "Opacity and Visibility Differences",
+              "order": 45
+            },
+            {
+              "title": "Transforms: Translate, Rotate, Scale and Skew",
+              "order": 46
+            },
+            {
+              "title": "Transitions and Timing Functions",
+              "order": 47
+            },
+            {
+              "title": "Keyframe Animations and Animation Properties",
+              "order": 48
+            },
+            {
+              "title": "Reduced Motion and Accessible Animation",
+              "order": 49
+            },
+            {
+              "title": "2D/3D Transform Contexts and Perspective",
+              "order": 50
+            },
+            {
+              "title": "Filters and Backdrop Filters",
+              "order": 51
+            },
+            {
+              "title": "Object-fit, Object-position and Aspect Ratio",
+              "order": 52
+            },
+            {
+              "title": "Lists, Tables and Form Controls Styling",
+              "order": 53
+            },
+            {
+              "title": "Focus, Hover, Active and Disabled States",
+              "order": 54
+            },
+            {
+              "title": "Focus-visible and Keyboard-Friendly Styling",
+              "order": 55
+            },
+            {
+              "title": "Styling Validation, Error and Success States",
+              "order": 56
+            },
+            {
+              "title": "CSS Reset, Normalize and Browser Defaults",
+              "order": 57
+            },
+            {
+              "title": "CSS Architecture: Naming and Component Scoping",
+              "order": 58
+            },
+            {
+              "title": "BEM and Other Naming Conventions",
+              "order": 59
+            },
+            {
+              "title": "Organizing Stylesheets and Managing Specificity",
+              "order": 60
+            },
+            {
+              "title": "Tailwind CSS vs Writing Custom CSS",
+              "order": 61
+            },
+            {
+              "title": "Preprocessors and PostCSS Overview",
+              "order": 62
+            },
+            {
+              "title": "CSS Modules and Scoped Styling",
+              "order": 63
+            },
+            {
+              "title": "Logical Properties and International Layouts",
+              "order": 64
+            },
+            {
+              "title": "Writing Modes and RTL-Friendly Layouts",
+              "order": 65
+            },
+            {
+              "title": "Accessibility: Contrast, Focus and Zoom",
+              "order": 66
+            },
+            {
+              "title": "Print Stylesheets",
+              "order": 67
+            },
+            {
+              "title": "Performance: Selector Cost and Critical CSS",
+              "order": 68
+            },
+            {
+              "title": "CSS Containment and content-visibility",
+              "order": 69
+            },
+            {
+              "title": "Debugging Layout with Browser DevTools",
+              "order": 70
+            },
+            {
+              "title": "Cross-Browser Compatibility and Feature Queries",
+              "order": 71
+            },
+            {
+              "title": "Progressive Enhancement with @supports",
+              "order": 72
+            },
+            {
+              "title": "CSS Security and Untrusted Style Inputs",
+              "order": 73
+            },
+            {
+              "title": "Common Layout Bugs and Debugging Techniques",
+              "order": 74
+            },
+            {
+              "title": "Build a Responsive Page with Flexbox and Grid",
+              "order": 75
+            },
+            {
+              "title": "Build a Reusable Design System with CSS Variables",
+              "order": 76
+            },
+            {
+              "title": "Create Accessible Forms and Interactive States",
+              "order": 77
+            },
+            {
+              "title": "CSS Interview Questions and Practical Exercises",
+              "order": 78
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

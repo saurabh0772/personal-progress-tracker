@@ -1,0 +1,359 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "API & Security",
+      "technologies": [
+        {
+          "name": "Authentication",
+          "topics": [
+            {
+              "title": "Authentication Fundamentals: Identity, Authentication and Authorization",
+              "order": 1
+            },
+            {
+              "title": "Authentication vs Authorization vs Accounting",
+              "order": 2
+            },
+            {
+              "title": "Threat Modeling for Login and Session Flows",
+              "order": 3
+            },
+            {
+              "title": "Password-Based Authentication Flow",
+              "order": 4
+            },
+            {
+              "title": "Secure Password Storage and Password Hashing",
+              "order": 5
+            },
+            {
+              "title": "Password Hashing Algorithms: Argon2id, bcrypt and scrypt",
+              "order": 6
+            },
+            {
+              "title": "Password Policy and User Experience Trade-Offs",
+              "order": 7
+            },
+            {
+              "title": "Registration, Login and Logout Flows",
+              "order": 8
+            },
+            {
+              "title": "Email Verification and Account Activation",
+              "order": 9
+            },
+            {
+              "title": "Password Reset and Recovery Tokens",
+              "order": 10
+            },
+            {
+              "title": "One-Time Passwords and Time-Based OTP",
+              "order": 11
+            },
+            {
+              "title": "Multi-Factor Authentication Concepts",
+              "order": 12
+            },
+            {
+              "title": "Passkeys and WebAuthn Overview",
+              "order": 13
+            },
+            {
+              "title": "Session-Based Authentication Architecture",
+              "order": 14
+            },
+            {
+              "title": "Server-Side Sessions and Session Stores",
+              "order": 15
+            },
+            {
+              "title": "Session IDs, Rotation and Fixation Prevention",
+              "order": 16
+            },
+            {
+              "title": "Cookie Attributes: HttpOnly, Secure and SameSite",
+              "order": 17
+            },
+            {
+              "title": "Cookie Domain, Path, Expiration and Scope",
+              "order": 18
+            },
+            {
+              "title": "Session Expiration, Idle Timeout and Revocation",
+              "order": 19
+            },
+            {
+              "title": "Cross-Site Request Forgery and CSRF Defenses",
+              "order": 20
+            },
+            {
+              "title": "Token-Based Authentication Overview",
+              "order": 21
+            },
+            {
+              "title": "Bearer Tokens and Authorization Headers",
+              "order": 22
+            },
+            {
+              "title": "JWT Structure: Header, Payload and Signature",
+              "order": 23
+            },
+            {
+              "title": "JWT Signing Algorithms and Verification",
+              "order": 24
+            },
+            {
+              "title": "JWT Claims: iss, sub, aud, exp, nbf and jti",
+              "order": 25
+            },
+            {
+              "title": "Access Tokens and Refresh Tokens",
+              "order": 26
+            },
+            {
+              "title": "Refresh Token Rotation and Reuse Detection",
+              "order": 27
+            },
+            {
+              "title": "Token Revocation, Denylists and Revocation Trade-Offs",
+              "order": 28
+            },
+            {
+              "title": "JWT Expiration, Clock Skew and Key Rotation",
+              "order": 29
+            },
+            {
+              "title": "Secure Token Storage in Browsers",
+              "order": 30
+            },
+            {
+              "title": "Sessions vs JWTs: Choosing the Right Model",
+              "order": 31
+            },
+            {
+              "title": "OAuth 2.0 Roles and Authorization Framework",
+              "order": 32
+            },
+            {
+              "title": "Authorization Code Flow",
+              "order": 33
+            },
+            {
+              "title": "PKCE and Public Clients",
+              "order": 34
+            },
+            {
+              "title": "Client Credentials Flow for Service-to-Service Access",
+              "order": 35
+            },
+            {
+              "title": "Device Authorization Flow Overview",
+              "order": 36
+            },
+            {
+              "title": "OAuth Scopes, Consent and Least Privilege",
+              "order": 37
+            },
+            {
+              "title": "OpenID Connect and Identity Tokens",
+              "order": 38
+            },
+            {
+              "title": "ID Token vs Access Token",
+              "order": 39
+            },
+            {
+              "title": "Discovery, JWKS and Signing Key Retrieval",
+              "order": 40
+            },
+            {
+              "title": "OAuth State, Nonce and Redirect URI Validation",
+              "order": 41
+            },
+            {
+              "title": "OAuth Refresh Tokens and Rotation",
+              "order": 42
+            },
+            {
+              "title": "Third-Party Login and Account Linking",
+              "order": 43
+            },
+            {
+              "title": "Single Sign-On and Identity Providers",
+              "order": 44
+            },
+            {
+              "title": "RBAC: Roles, Permissions and Policies",
+              "order": 45
+            },
+            {
+              "title": "ABAC and Policy-Based Authorization",
+              "order": 46
+            },
+            {
+              "title": "Resource-Level Authorization and IDOR Prevention",
+              "order": 47
+            },
+            {
+              "title": "Multi-Tenant Authorization and Tenant Isolation",
+              "order": 48
+            },
+            {
+              "title": "Authorization Middleware and Route Guards",
+              "order": 49
+            },
+            {
+              "title": "Authorization at the Data-Access Layer",
+              "order": 50
+            },
+            {
+              "title": "API Keys and Their Appropriate Use",
+              "order": 51
+            },
+            {
+              "title": "Service Accounts and Workload Identity",
+              "order": 52
+            },
+            {
+              "title": "Mutual TLS and Service-to-Service Authentication",
+              "order": 53
+            },
+            {
+              "title": "Identity Federation and Trust Boundaries",
+              "order": 54
+            },
+            {
+              "title": "CORS and Credentialed Requests",
+              "order": 55
+            },
+            {
+              "title": "XSS Risks and Authentication Token Theft",
+              "order": 56
+            },
+            {
+              "title": "SQL/NoSQL Injection and Credential Abuse",
+              "order": 57
+            },
+            {
+              "title": "Brute-Force Protection and Login Rate Limiting",
+              "order": 58
+            },
+            {
+              "title": "Credential Stuffing and Password Spraying",
+              "order": 59
+            },
+            {
+              "title": "Account Lockout vs Progressive Delays",
+              "order": 60
+            },
+            {
+              "title": "Secure Error Messages and User Enumeration",
+              "order": 61
+            },
+            {
+              "title": "Login Alerts, Audit Trails and Security Events",
+              "order": 62
+            },
+            {
+              "title": "Secrets Management and Environment Configuration",
+              "order": 63
+            },
+            {
+              "title": "TLS, HSTS and Secure Transport",
+              "order": 64
+            },
+            {
+              "title": "Signing Keys, Rotation and Key Management",
+              "order": 65
+            },
+            {
+              "title": "Authentication in Node.js and Express",
+              "order": 66
+            },
+            {
+              "title": "Authentication in Fastify",
+              "order": 67
+            },
+            {
+              "title": "Authentication in React and Client-Side Routing",
+              "order": 68
+            },
+            {
+              "title": "Authentication in Next.js Server and Client Components",
+              "order": 69
+            },
+            {
+              "title": "Database Models for Users, Sessions and Tokens",
+              "order": 70
+            },
+            {
+              "title": "Redis for Sessions, OTPs and Revocation State",
+              "order": 71
+            },
+            {
+              "title": "Authentication with PostgreSQL and MongoDB",
+              "order": 72
+            },
+            {
+              "title": "OAuth Provider Integration and Callback Handling",
+              "order": 73
+            },
+            {
+              "title": "Email Delivery and Verification Link Security",
+              "order": 74
+            },
+            {
+              "title": "Authentication Testing: Success, Failure and Edge Cases",
+              "order": 75
+            },
+            {
+              "title": "Testing Permissions and Tenant Isolation",
+              "order": 76
+            },
+            {
+              "title": "Security Testing and Common Authentication Vulnerabilities",
+              "order": 77
+            },
+            {
+              "title": "Logging Authentication Events Without Leaking Secrets",
+              "order": 78
+            },
+            {
+              "title": "Incident Response for Compromised Credentials",
+              "order": 79
+            },
+            {
+              "title": "Accessibility and Recovery UX for Authentication",
+              "order": 80
+            },
+            {
+              "title": "Build Secure Registration, Login and Logout",
+              "order": 81
+            },
+            {
+              "title": "Implement Session Rotation and CSRF Protection",
+              "order": 82
+            },
+            {
+              "title": "Implement JWT Access and Refresh Token Flows",
+              "order": 83
+            },
+            {
+              "title": "Add RBAC to a Multi-Tenant REST API",
+              "order": 84
+            },
+            {
+              "title": "Integrate OAuth Login with PKCE",
+              "order": 85
+            },
+            {
+              "title": "Authentication Interview Questions and Threat-Model Exercises",
+              "order": 86
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Frontend Development",
+      "technologies": [
+        {
+          "name": "React",
+          "topics": [
+            {
+              "title": "React Overview: Components, Declarative UI and Reconciliation",
+              "order": 1
+            },
+            {
+              "title": "Creating a React App with Vite",
+              "order": 2
+            },
+            {
+              "title": "Project Structure and Development Scripts",
+              "order": 3
+            },
+            {
+              "title": "JSX Syntax and JavaScript Expressions",
+              "order": 4
+            },
+            {
+              "title": "JSX Rules, Fragments and Conditional Output",
+              "order": 5
+            },
+            {
+              "title": "Components: Function Components and Composition",
+              "order": 6
+            },
+            {
+              "title": "Props, Default Values and Prop Passing",
+              "order": 7
+            },
+            {
+              "title": "Rendering Lists and Choosing Stable Keys",
+              "order": 8
+            },
+            {
+              "title": "Conditional Rendering Patterns",
+              "order": 9
+            },
+            {
+              "title": "Event Handling and Synthetic Events",
+              "order": 10
+            },
+            {
+              "title": "State with useState",
+              "order": 11
+            },
+            {
+              "title": "State Updates, Batching and Functional Updaters",
+              "order": 12
+            },
+            {
+              "title": "State Immutability and Updating Objects",
+              "order": 13
+            },
+            {
+              "title": "Updating Arrays in State",
+              "order": 14
+            },
+            {
+              "title": "Controlled and Uncontrolled Form Inputs",
+              "order": 15
+            },
+            {
+              "title": "Form Submission and Validation Patterns",
+              "order": 16
+            },
+            {
+              "title": "Sharing State Between Components",
+              "order": 17
+            },
+            {
+              "title": "State Colocation and Avoiding Redundant State",
+              "order": 18
+            },
+            {
+              "title": "Component Lifecycle Concepts in Function Components",
+              "order": 19
+            },
+            {
+              "title": "useEffect: Purpose and Correct Usage",
+              "order": 20
+            },
+            {
+              "title": "Effect Dependencies and Reactive Values",
+              "order": 21
+            },
+            {
+              "title": "Effect Cleanup and Avoiding Stale Resources",
+              "order": 22
+            },
+            {
+              "title": "Effects vs Event Handlers vs Derived Values",
+              "order": 23
+            },
+            {
+              "title": "Fetching Data and Handling Loading, Error and Empty States",
+              "order": 24
+            },
+            {
+              "title": "Preventing Race Conditions in Data Fetching",
+              "order": 25
+            },
+            {
+              "title": "AbortController and Request Cancellation",
+              "order": 26
+            },
+            {
+              "title": "useRef for DOM Access and Mutable Values",
+              "order": 27
+            },
+            {
+              "title": "useContext and Context Provider Design",
+              "order": 28
+            },
+            {
+              "title": "useReducer for Complex State Transitions",
+              "order": 29
+            },
+            {
+              "title": "Writing Custom Hooks",
+              "order": 30
+            },
+            {
+              "title": "Rules of Hooks and Hook Design",
+              "order": 31
+            },
+            {
+              "title": "React Router Setup and Route Configuration",
+              "order": 32
+            },
+            {
+              "title": "Nested Routes, Layout Routes and Outlet",
+              "order": 33
+            },
+            {
+              "title": "Dynamic Routes, Route Parameters and Search Params",
+              "order": 34
+            },
+            {
+              "title": "Navigation, Links and Programmatic Routing",
+              "order": 35
+            },
+            {
+              "title": "Protected Routes and Authentication UI Patterns",
+              "order": 36
+            },
+            {
+              "title": "Error Boundaries and Error Recovery",
+              "order": 37
+            },
+            {
+              "title": "Portals and Modal Patterns",
+              "order": 38
+            },
+            {
+              "title": "Fragments and DOM Structure",
+              "order": 39
+            },
+            {
+              "title": "Refs and Forwarding Refs Concepts",
+              "order": 40
+            },
+            {
+              "title": "Memoization: React.memo, useMemo and useCallback",
+              "order": 41
+            },
+            {
+              "title": "Understanding Re-renders and Render Performance",
+              "order": 42
+            },
+            {
+              "title": "State Structure and Avoiding Unnecessary Effects",
+              "order": 43
+            },
+            {
+              "title": "Code Splitting and Lazy Loading Components",
+              "order": 44
+            },
+            {
+              "title": "Suspense and Fallback UI",
+              "order": 45
+            },
+            {
+              "title": "React DevTools and Component Profiling",
+              "order": 46
+            },
+            {
+              "title": "Accessibility: Semantic HTML, Labels and Keyboard Support",
+              "order": 47
+            },
+            {
+              "title": "Managing Focus and Accessible Dialogs",
+              "order": 48
+            },
+            {
+              "title": "Styling Options: CSS, Modules and Utility Classes",
+              "order": 49
+            },
+            {
+              "title": "Tailwind CSS Integration and Component Styling",
+              "order": 50
+            },
+            {
+              "title": "Environment Variables and Build-Time Configuration",
+              "order": 51
+            },
+            {
+              "title": "Calling REST APIs and Structuring API Clients",
+              "order": 52
+            },
+            {
+              "title": "Authentication: Token Handling and Session-Aware UI",
+              "order": 53
+            },
+            {
+              "title": "Authorization and Role-Based UI Boundaries",
+              "order": 54
+            },
+            {
+              "title": "File Upload UI and Progress Feedback",
+              "order": 55
+            },
+            {
+              "title": "Pagination, Search, Sorting and Filtering UI",
+              "order": 56
+            },
+            {
+              "title": "Optimistic UI and Rollback Patterns",
+              "order": 57
+            },
+            {
+              "title": "Global State vs Server State",
+              "order": 58
+            },
+            {
+              "title": "Redux Toolkit Fundamentals and Store Setup",
+              "order": 59
+            },
+            {
+              "title": "createSlice, Actions and Reducers",
+              "order": 60
+            },
+            {
+              "title": "useSelector and useDispatch",
+              "order": 61
+            },
+            {
+              "title": "Async Thunks and Request Lifecycle State",
+              "order": 62
+            },
+            {
+              "title": "RTK Query: Queries, Mutations and Cache",
+              "order": 63
+            },
+            {
+              "title": "TypeScript with React: Props and Component Types",
+              "order": 64
+            },
+            {
+              "title": "Typing Events, Refs, Context and Hooks",
+              "order": 65
+            },
+            {
+              "title": "Testing Components with React Testing Library",
+              "order": 66
+            },
+            {
+              "title": "Testing User Interactions and Async UI",
+              "order": 67
+            },
+            {
+              "title": "Mocking API Requests and Testing Error States",
+              "order": 68
+            },
+            {
+              "title": "Unit, Integration and End-to-End Testing Boundaries",
+              "order": 69
+            },
+            {
+              "title": "React Security: XSS, Untrusted HTML and URL Handling",
+              "order": 70
+            },
+            {
+              "title": "Performance: Avoiding Large Bundles and Unnecessary Work",
+              "order": 71
+            },
+            {
+              "title": "Virtualization for Long Lists",
+              "order": 72
+            },
+            {
+              "title": "Internationalization and Locale-Aware UI",
+              "order": 73
+            },
+            {
+              "title": "Responsive UI and Mobile Interaction Patterns",
+              "order": 74
+            },
+            {
+              "title": "React Server Components: Core Mental Model",
+              "order": 75
+            },
+            {
+              "title": "Server Components vs Client Components",
+              "order": 76
+            },
+            {
+              "title": "React Actions and Form Action Concepts",
+              "order": 77
+            },
+            {
+              "title": "Strict Mode and Development-Only Checks",
+              "order": 78
+            },
+            {
+              "title": "Hydration and Server Rendering Concepts",
+              "order": 79
+            },
+            {
+              "title": "React Versioning and Reading Official Documentation",
+              "order": 80
+            },
+            {
+              "title": "Project Architecture: Features, Components and Shared Utilities",
+              "order": 81
+            },
+            {
+              "title": "Reusable Component APIs and Composition Patterns",
+              "order": 82
+            },
+            {
+              "title": "Design Systems and Consistent UI States",
+              "order": 83
+            },
+            {
+              "title": "Debugging Common React Warnings and Bugs",
+              "order": 84
+            },
+            {
+              "title": "Build a CRUD Dashboard with Forms and Routing",
+              "order": 85
+            },
+            {
+              "title": "Build Authentication-Aware Pages with Protected UI",
+              "order": 86
+            },
+            {
+              "title": "Build a Searchable, Paginated Data Table",
+              "order": 87
+            },
+            {
+              "title": "Refactor a React App for Accessibility and Performance",
+              "order": 88
+            },
+            {
+              "title": "React Interview Questions and Practical Coding Exercises",
+              "order": 89
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

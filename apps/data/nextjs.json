@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Frontend Development",
+      "technologies": [
+        {
+          "name": "Next.js",
+          "topics": [
+            {
+              "title": "What Next.js Is and When to Use It",
+              "order": 1
+            },
+            {
+              "title": "Next.js Architecture and React Relationship",
+              "order": 2
+            },
+            {
+              "title": "Creating a Project and Choosing TypeScript or JavaScript",
+              "order": 3
+            },
+            {
+              "title": "Project Structure and App Router",
+              "order": 4
+            },
+            {
+              "title": "File-System Routing Fundamentals",
+              "order": 5
+            },
+            {
+              "title": "Pages, Layouts and Root Layout",
+              "order": 6
+            },
+            {
+              "title": "Route Groups and Private Folders",
+              "order": 7
+            },
+            {
+              "title": "Dynamic Routes and Route Parameters",
+              "order": 8
+            },
+            {
+              "title": "Catch-All and Optional Catch-All Routes",
+              "order": 9
+            },
+            {
+              "title": "Nested Layouts and Shared UI",
+              "order": 10
+            },
+            {
+              "title": "Link Navigation and Client-Side Transitions",
+              "order": 11
+            },
+            {
+              "title": "useRouter, usePathname and useSearchParams",
+              "order": 12
+            },
+            {
+              "title": "Loading UI with loading.tsx",
+              "order": 13
+            },
+            {
+              "title": "Error Boundaries with error.tsx",
+              "order": 14
+            },
+            {
+              "title": "not-found.tsx and notFound()",
+              "order": 15
+            },
+            {
+              "title": "Global Error Handling",
+              "order": 16
+            },
+            {
+              "title": "Server Components: Default Behavior and Benefits",
+              "order": 17
+            },
+            {
+              "title": "Client Components and the use client Directive",
+              "order": 18
+            },
+            {
+              "title": "Server vs Client Component Boundaries",
+              "order": 19
+            },
+            {
+              "title": "Passing Props and Serializable Data Across Boundaries",
+              "order": 20
+            },
+            {
+              "title": "Composition Patterns for Server and Client Components",
+              "order": 21
+            },
+            {
+              "title": "Server-Only and Client-Only Modules",
+              "order": 22
+            },
+            {
+              "title": "Fetching Data in Server Components",
+              "order": 23
+            },
+            {
+              "title": "Fetching Data in Client Components",
+              "order": 24
+            },
+            {
+              "title": "Parallel and Sequential Data Fetching",
+              "order": 25
+            },
+            {
+              "title": "Request Deduplication and Data Reuse",
+              "order": 26
+            },
+            {
+              "title": "Loading, Error and Empty States",
+              "order": 27
+            },
+            {
+              "title": "Streaming UI and Suspense Boundaries",
+              "order": 28
+            },
+            {
+              "title": "Static Rendering and Dynamic Rendering",
+              "order": 29
+            },
+            {
+              "title": "Dynamic APIs: cookies, headers and Search Params",
+              "order": 30
+            },
+            {
+              "title": "Data Cache and Request Memoization Concepts",
+              "order": 31
+            },
+            {
+              "title": "Time-Based Revalidation",
+              "order": 32
+            },
+            {
+              "title": "On-Demand Revalidation with Paths and Tags",
+              "order": 33
+            },
+            {
+              "title": "Cache Components and Current Caching Model Overview",
+              "order": 34
+            },
+            {
+              "title": "Understanding Cache Behavior Across Next.js Versions",
+              "order": 35
+            },
+            {
+              "title": "Route Handlers: GET, POST, PUT, PATCH and DELETE",
+              "order": 36
+            },
+            {
+              "title": "Request and Response APIs",
+              "order": 37
+            },
+            {
+              "title": "Route Handler Validation and Error Responses",
+              "order": 38
+            },
+            {
+              "title": "Server Actions and Server Functions",
+              "order": 39
+            },
+            {
+              "title": "Forms with Server Actions",
+              "order": 40
+            },
+            {
+              "title": "Pending States, useActionState and useFormStatus",
+              "order": 41
+            },
+            {
+              "title": "Optimistic UI with useOptimistic",
+              "order": 42
+            },
+            {
+              "title": "Mutating Data and Revalidating Caches",
+              "order": 43
+            },
+            {
+              "title": "Middleware/Proxy: Request Interception and Use Cases",
+              "order": 44
+            },
+            {
+              "title": "Authentication Concepts and Session Management",
+              "order": 45
+            },
+            {
+              "title": "Authorization and Role-Based Access Control",
+              "order": 46
+            },
+            {
+              "title": "Cookies, Headers and Secure Session Handling",
+              "order": 47
+            },
+            {
+              "title": "Protecting Data Access on the Server",
+              "order": 48
+            },
+            {
+              "title": "Environment Variables and Secret Management",
+              "order": 49
+            },
+            {
+              "title": "Database Access from Server Code",
+              "order": 50
+            },
+            {
+              "title": "Using an ORM with Next.js",
+              "order": 51
+            },
+            {
+              "title": "Input Validation with Zod",
+              "order": 52
+            },
+            {
+              "title": "File Uploads and Upload Security",
+              "order": 53
+            },
+            {
+              "title": "Image Optimization with next/image",
+              "order": 54
+            },
+            {
+              "title": "Font Optimization with next/font",
+              "order": 55
+            },
+            {
+              "title": "Metadata API and SEO",
+              "order": 56
+            },
+            {
+              "title": "Open Graph Images and Social Metadata",
+              "order": 57
+            },
+            {
+              "title": "Sitemap, robots.txt and Canonical URLs",
+              "order": 58
+            },
+            {
+              "title": "Internationalization and Locale Routing",
+              "order": 59
+            },
+            {
+              "title": "CSS, CSS Modules and Tailwind CSS",
+              "order": 60
+            },
+            {
+              "title": "Global State and Context in Next.js",
+              "order": 61
+            },
+            {
+              "title": "Redux Toolkit in App Router Applications",
+              "order": 62
+            },
+            {
+              "title": "Client-Side Libraries and Browser-Only APIs",
+              "order": 63
+            },
+            {
+              "title": "Third-Party Scripts and Script Loading",
+              "order": 64
+            },
+            {
+              "title": "Prefetching and Navigation Performance",
+              "order": 65
+            },
+            {
+              "title": "Lazy Loading Components and Dynamic Imports",
+              "order": 66
+            },
+            {
+              "title": "Bundle Analysis and Client JavaScript Reduction",
+              "order": 67
+            },
+            {
+              "title": "Core Web Vitals and Performance Diagnostics",
+              "order": 68
+            },
+            {
+              "title": "Accessibility and Semantic UI",
+              "order": 69
+            },
+            {
+              "title": "Testing Components and Server/Client Boundaries",
+              "order": 70
+            },
+            {
+              "title": "Unit and Integration Testing",
+              "order": 71
+            },
+            {
+              "title": "End-to-End Testing with Playwright",
+              "order": 72
+            },
+            {
+              "title": "Mocking APIs and Testing Route Handlers",
+              "order": 73
+            },
+            {
+              "title": "Debugging Hydration Errors",
+              "order": 74
+            },
+            {
+              "title": "Hydration, Serialization and Mismatch Causes",
+              "order": 75
+            },
+            {
+              "title": "Error Monitoring and Structured Logging",
+              "order": 76
+            },
+            {
+              "title": "Security: XSS, CSRF, Open Redirects and Injection",
+              "order": 77
+            },
+            {
+              "title": "Content Security Policy and Security Headers",
+              "order": 78
+            },
+            {
+              "title": "Rate Limiting and Abuse Protection",
+              "order": 79
+            },
+            {
+              "title": "Deployment on a Managed Platform",
+              "order": 80
+            },
+            {
+              "title": "Self-Hosting and Node.js Runtime Considerations",
+              "order": 81
+            },
+            {
+              "title": "Edge Runtime vs Node.js Runtime",
+              "order": 82
+            },
+            {
+              "title": "Build Output, Environment Configuration and CI",
+              "order": 83
+            },
+            {
+              "title": "Image and Static Asset Caching",
+              "order": 84
+            },
+            {
+              "title": "Background Jobs and External Queue Integration",
+              "order": 85
+            },
+            {
+              "title": "WebSockets and Real-Time Features with Next.js",
+              "order": 86
+            },
+            {
+              "title": "Monorepo and Shared Package Integration",
+              "order": 87
+            },
+            {
+              "title": "Upgrading Next.js and Reading Versioned Documentation",
+              "order": 88
+            },
+            {
+              "title": "Build a Full-Stack CRUD Application",
+              "order": 89
+            },
+            {
+              "title": "Build Authentication and Protected Dashboard Flows",
+              "order": 90
+            },
+            {
+              "title": "Build a Search and Pagination Experience",
+              "order": 91
+            },
+            {
+              "title": "Audit a Next.js App for Security and Performance",
+              "order": 92
+            },
+            {
+              "title": "Next.js Interview Questions and Practical Exercises",
+              "order": 93
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

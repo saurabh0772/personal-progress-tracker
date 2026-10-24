@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Backend Development",
+      "technologies": [
+        {
+          "name": "Node.js",
+          "topics": [
+            {
+              "title": "Node.js Overview and Use Cases",
+              "order": 1
+            },
+            {
+              "title": "Installing Node.js and Understanding LTS Releases",
+              "order": 2
+            },
+            {
+              "title": "Node.js Runtime Architecture",
+              "order": 3
+            },
+            {
+              "title": "V8, libuv and Native Bindings Overview",
+              "order": 4
+            },
+            {
+              "title": "Running JavaScript with node",
+              "order": 5
+            },
+            {
+              "title": "Node.js REPL and Debugging Basics",
+              "order": 6
+            },
+            {
+              "title": "CommonJS Modules: require and module.exports",
+              "order": 7
+            },
+            {
+              "title": "ECMAScript Modules: import and export",
+              "order": 8
+            },
+            {
+              "title": "Choosing and Configuring ESM or CommonJS",
+              "order": 9
+            },
+            {
+              "title": "package.json and Project Metadata",
+              "order": 10
+            },
+            {
+              "title": "npm Scripts and Dependency Management",
+              "order": 11
+            },
+            {
+              "title": "Semantic Versioning and Lockfiles",
+              "order": 12
+            },
+            {
+              "title": "Core Modules and the node: Import Prefix",
+              "order": 13
+            },
+            {
+              "title": "Global Objects: process, Buffer, console and timers",
+              "order": 14
+            },
+            {
+              "title": "Environment Variables and Configuration",
+              "order": 15
+            },
+            {
+              "title": "Working with process.argv and Command-Line Arguments",
+              "order": 16
+            },
+            {
+              "title": "Exit Codes, Signals and Process Lifecycle",
+              "order": 17
+            },
+            {
+              "title": "File System: Synchronous vs Asynchronous APIs",
+              "order": 18
+            },
+            {
+              "title": "Reading and Writing Files",
+              "order": 19
+            },
+            {
+              "title": "Directories, Paths and path Module",
+              "order": 20
+            },
+            {
+              "title": "File Streams and Large File Handling",
+              "order": 21
+            },
+            {
+              "title": "File Permissions and Safe File Operations",
+              "order": 22
+            },
+            {
+              "title": "URL and URLSearchParams",
+              "order": 23
+            },
+            {
+              "title": "Events and EventEmitter",
+              "order": 24
+            },
+            {
+              "title": "Custom Events and Listener Management",
+              "order": 25
+            },
+            {
+              "title": "Callbacks and Error-First Callback Pattern",
+              "order": 26
+            },
+            {
+              "title": "Promises in Node.js",
+              "order": 27
+            },
+            {
+              "title": "Async/Await and Asynchronous Error Handling",
+              "order": 28
+            },
+            {
+              "title": "Promise Combinators and Concurrency Patterns",
+              "order": 29
+            },
+            {
+              "title": "Event Loop Phases in Node.js",
+              "order": 30
+            },
+            {
+              "title": "Timers, setImmediate and process.nextTick",
+              "order": 31
+            },
+            {
+              "title": "Microtasks and Node.js Scheduling Order",
+              "order": 32
+            },
+            {
+              "title": "Blocking vs Non-Blocking I/O",
+              "order": 33
+            },
+            {
+              "title": "Thread Pool Basics and libuv",
+              "order": 34
+            },
+            {
+              "title": "CPU-Bound vs I/O-Bound Work",
+              "order": 35
+            },
+            {
+              "title": "Buffer and Binary Data",
+              "order": 36
+            },
+            {
+              "title": "Readable, Writable, Duplex and Transform Streams",
+              "order": 37
+            },
+            {
+              "title": "Stream Piping, pipeline and Backpressure",
+              "order": 38
+            },
+            {
+              "title": "HTTP Fundamentals and Node.js HTTP Module",
+              "order": 39
+            },
+            {
+              "title": "Creating an HTTP Server",
+              "order": 40
+            },
+            {
+              "title": "Parsing URLs, Query Parameters and Request Bodies",
+              "order": 41
+            },
+            {
+              "title": "HTTP Headers, Status Codes and Content Types",
+              "order": 42
+            },
+            {
+              "title": "HTTP Methods and REST API Basics",
+              "order": 43
+            },
+            {
+              "title": "Building a Router and Organizing Route Handlers",
+              "order": 44
+            },
+            {
+              "title": "Request Validation and Safe Parsing",
+              "order": 45
+            },
+            {
+              "title": "Error Handling and Centralized Error Responses",
+              "order": 46
+            },
+            {
+              "title": "Unhandled Rejections and Uncaught Exceptions",
+              "order": 47
+            },
+            {
+              "title": "TCP, UDP and net Module Overview",
+              "order": 48
+            },
+            {
+              "title": "DNS Lookup and Network Requests",
+              "order": 49
+            },
+            {
+              "title": "TLS and HTTPS Server Basics",
+              "order": 50
+            },
+            {
+              "title": "WebSockets and Real-Time Communication Overview",
+              "order": 51
+            },
+            {
+              "title": "Child Processes: exec, execFile, spawn and fork",
+              "order": 52
+            },
+            {
+              "title": "Worker Threads and CPU-Intensive Tasks",
+              "order": 53
+            },
+            {
+              "title": "IPC and Inter-Process Communication",
+              "order": 54
+            },
+            {
+              "title": "Graceful Shutdown and Connection Draining",
+              "order": 55
+            },
+            {
+              "title": "Logging, Structured Logs and Correlation IDs",
+              "order": 56
+            },
+            {
+              "title": "Debugging with Inspector and Chrome DevTools",
+              "order": 57
+            },
+            {
+              "title": "CPU Profiling, Heap Snapshots and Memory Analysis",
+              "order": 58
+            },
+            {
+              "title": "Memory Leaks and Garbage Collection Basics",
+              "order": 59
+            },
+            {
+              "title": "Performance Measurement and Benchmarking",
+              "order": 60
+            },
+            {
+              "title": "Security: Input Validation and Output Encoding",
+              "order": 61
+            },
+            {
+              "title": "Path Traversal and Safe File Access",
+              "order": 62
+            },
+            {
+              "title": "Secrets Management and Environment Hygiene",
+              "order": 63
+            },
+            {
+              "title": "Dependency Auditing and Supply-Chain Risks",
+              "order": 64
+            },
+            {
+              "title": "Process Permissions and Least Privilege",
+              "order": 65
+            },
+            {
+              "title": "Authentication and Authorization Integration",
+              "order": 66
+            },
+            {
+              "title": "Database Connection Pooling and Lifecycle",
+              "order": 67
+            },
+            {
+              "title": "Using PostgreSQL from Node.js",
+              "order": 68
+            },
+            {
+              "title": "Using MongoDB and Mongoose from Node.js",
+              "order": 69
+            },
+            {
+              "title": "Redis Integration and Cache-Aside Pattern",
+              "order": 70
+            },
+            {
+              "title": "Transactions and Idempotent Operations",
+              "order": 71
+            },
+            {
+              "title": "Background Jobs and Message Queues",
+              "order": 72
+            },
+            {
+              "title": "Scheduling Tasks and Handling Retries",
+              "order": 73
+            },
+            {
+              "title": "Rate Limiting and Request Timeouts",
+              "order": 74
+            },
+            {
+              "title": "Testing Node.js with the Built-In Test Runner",
+              "order": 75
+            },
+            {
+              "title": "Mocking, Stubbing and Dependency Isolation",
+              "order": 76
+            },
+            {
+              "title": "Integration Testing HTTP APIs",
+              "order": 77
+            },
+            {
+              "title": "Code Coverage and Test Organization",
+              "order": 78
+            },
+            {
+              "title": "TypeScript with Node.js",
+              "order": 79
+            },
+            {
+              "title": "Node.js Project Structure and Service Boundaries",
+              "order": 80
+            },
+            {
+              "title": "Configuration Validation at Startup",
+              "order": 81
+            },
+            {
+              "title": "Graceful Handling of External Service Failures",
+              "order": 82
+            },
+            {
+              "title": "Health Checks and Readiness Endpoints",
+              "order": 83
+            },
+            {
+              "title": "Containerizing Node.js Applications",
+              "order": 84
+            },
+            {
+              "title": "Production Deployment and Process Management",
+              "order": 85
+            },
+            {
+              "title": "Horizontal Scaling and Stateless Node.js Services",
+              "order": 86
+            },
+            {
+              "title": "Observability: Metrics, Logs and Traces",
+              "order": 87
+            },
+            {
+              "title": "Common Node.js Interview Questions",
+              "order": 88
+            },
+            {
+              "title": "Practical Exercises: Files, Events and Async Work",
+              "order": 89
+            },
+            {
+              "title": "Build a Streaming File API",
+              "order": 90
+            },
+            {
+              "title": "Build a Robust REST API with Validation and Tests",
+              "order": 91
+            },
+            {
+              "title": "Build a Queue-Backed Background Worker",
+              "order": 92
+            },
+            {
+              "title": "Profile and Optimize a Node.js Service",
+              "order": 93
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

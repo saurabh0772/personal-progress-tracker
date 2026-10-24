@@ -1,0 +1,367 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Web Fundamentals",
+      "technologies": [
+        {
+          "name": "Web Architecture",
+          "topics": [
+            {
+              "title": "What Web Architecture Means and Why It Matters",
+              "order": 1
+            },
+            {
+              "title": "Client-Server Architecture",
+              "order": 2
+            },
+            {
+              "title": "Request-Response Lifecycle",
+              "order": 3
+            },
+            {
+              "title": "Browser, Frontend, Backend and Database Responsibilities",
+              "order": 4
+            },
+            {
+              "title": "Static Sites, Dynamic Sites and Web Applications",
+              "order": 5
+            },
+            {
+              "title": "Monolith, Modular Monolith and Microservices Overview",
+              "order": 6
+            },
+            {
+              "title": "Three-Tier and N-Tier Architecture",
+              "order": 7
+            },
+            {
+              "title": "Presentation, Business and Data Layers",
+              "order": 8
+            },
+            {
+              "title": "HTTP and HTTPS Architecture Basics",
+              "order": 9
+            },
+            {
+              "title": "DNS Resolution and Domain Names",
+              "order": 10
+            },
+            {
+              "title": "CDNs and Edge Delivery",
+              "order": 11
+            },
+            {
+              "title": "Reverse Proxies and Forward Proxies",
+              "order": 12
+            },
+            {
+              "title": "Load Balancers and Traffic Distribution",
+              "order": 13
+            },
+            {
+              "title": "Application Servers and Web Servers",
+              "order": 14
+            },
+            {
+              "title": "API Design and Resource-Oriented Interfaces",
+              "order": 15
+            },
+            {
+              "title": "REST Architecture and REST Constraints",
+              "order": 16
+            },
+            {
+              "title": "GraphQL and RPC Overview",
+              "order": 17
+            },
+            {
+              "title": "WebSockets and Real-Time Communication",
+              "order": 18
+            },
+            {
+              "title": "Server-Sent Events and Long Polling",
+              "order": 19
+            },
+            {
+              "title": "WebRTC and Peer-to-Peer Communication Overview",
+              "order": 20
+            },
+            {
+              "title": "Authentication vs Authorization",
+              "order": 21
+            },
+            {
+              "title": "Sessions, Cookies, Tokens and Stateless Requests",
+              "order": 22
+            },
+            {
+              "title": "OAuth 2.0 and OpenID Connect Overview",
+              "order": 23
+            },
+            {
+              "title": "API Gateways and Backend-for-Frontend",
+              "order": 24
+            },
+            {
+              "title": "Service Discovery and Internal Service Communication",
+              "order": 25
+            },
+            {
+              "title": "Synchronous vs Asynchronous Communication",
+              "order": 26
+            },
+            {
+              "title": "Message Queues and Event-Driven Architecture",
+              "order": 27
+            },
+            {
+              "title": "Pub/Sub and Event Streaming",
+              "order": 28
+            },
+            {
+              "title": "Background Jobs and Task Workers",
+              "order": 29
+            },
+            {
+              "title": "Database Architecture: Relational vs Document",
+              "order": 30
+            },
+            {
+              "title": "Data Modeling and Schema Design",
+              "order": 31
+            },
+            {
+              "title": "Database Connections and Connection Pooling",
+              "order": 32
+            },
+            {
+              "title": "Indexes and Query Performance",
+              "order": 33
+            },
+            {
+              "title": "Transactions and Consistency Guarantees",
+              "order": 34
+            },
+            {
+              "title": "Replication and Read Replicas",
+              "order": 35
+            },
+            {
+              "title": "Partitioning and Sharding",
+              "order": 36
+            },
+            {
+              "title": "Caching Layers: Browser, CDN, Reverse Proxy and App",
+              "order": 37
+            },
+            {
+              "title": "Cache-Aside, Read-Through and Write-Through",
+              "order": 38
+            },
+            {
+              "title": "Cache Invalidation and TTL",
+              "order": 39
+            },
+            {
+              "title": "Rate Limiting and Quota Enforcement",
+              "order": 40
+            },
+            {
+              "title": "Retries, Timeouts and Exponential Backoff",
+              "order": 41
+            },
+            {
+              "title": "Circuit Breakers and Bulkheads",
+              "order": 42
+            },
+            {
+              "title": "Idempotency and Duplicate Request Protection",
+              "order": 43
+            },
+            {
+              "title": "Horizontal vs Vertical Scaling",
+              "order": 44
+            },
+            {
+              "title": "Stateless Services and Shared State",
+              "order": 45
+            },
+            {
+              "title": "Session Affinity and Sticky Sessions",
+              "order": 46
+            },
+            {
+              "title": "Consistency, Availability and Partition Tolerance",
+              "order": 47
+            },
+            {
+              "title": "CAP Theorem and Practical Trade-Offs",
+              "order": 48
+            },
+            {
+              "title": "Eventual Consistency and Read-Your-Writes",
+              "order": 49
+            },
+            {
+              "title": "Distributed Locks and Coordination Overview",
+              "order": 50
+            },
+            {
+              "title": "Service Boundaries and Data Ownership",
+              "order": 51
+            },
+            {
+              "title": "API Versioning and Backward Compatibility",
+              "order": 52
+            },
+            {
+              "title": "Pagination, Filtering and Sorting Contracts",
+              "order": 53
+            },
+            {
+              "title": "File Upload and Object Storage Architecture",
+              "order": 54
+            },
+            {
+              "title": "Email Delivery and Webhook Architecture",
+              "order": 55
+            },
+            {
+              "title": "Search Systems and Indexing Overview",
+              "order": 56
+            },
+            {
+              "title": "Observability: Logs, Metrics and Traces",
+              "order": 57
+            },
+            {
+              "title": "Health Checks, Readiness and Liveness",
+              "order": 58
+            },
+            {
+              "title": "SLI, SLO, SLA and Error Budgets",
+              "order": 59
+            },
+            {
+              "title": "Structured Logging and Correlation IDs",
+              "order": 60
+            },
+            {
+              "title": "Monitoring, Alerting and Incident Response",
+              "order": 61
+            },
+            {
+              "title": "Deployment Strategies: Rolling, Blue-Green and Canary",
+              "order": 62
+            },
+            {
+              "title": "CI/CD Pipeline and Environment Separation",
+              "order": 63
+            },
+            {
+              "title": "Containers and Runtime Isolation",
+              "order": 64
+            },
+            {
+              "title": "Configuration and Secret Management",
+              "order": 65
+            },
+            {
+              "title": "TLS, Encryption and Secure Communication",
+              "order": 66
+            },
+            {
+              "title": "OWASP Risks and Secure-by-Design Principles",
+              "order": 67
+            },
+            {
+              "title": "Input Validation and Trust Boundaries",
+              "order": 68
+            },
+            {
+              "title": "Least Privilege and Role-Based Access Control",
+              "order": 69
+            },
+            {
+              "title": "Backup, Restore and Disaster Recovery",
+              "order": 70
+            },
+            {
+              "title": "High Availability and Fault Tolerance",
+              "order": 71
+            },
+            {
+              "title": "Single Points of Failure and Redundancy",
+              "order": 72
+            },
+            {
+              "title": "Capacity Planning and Traffic Estimation",
+              "order": 73
+            },
+            {
+              "title": "Latency, Throughput and Tail Latency",
+              "order": 74
+            },
+            {
+              "title": "Performance Testing and Load Testing",
+              "order": 75
+            },
+            {
+              "title": "Cost, Reliability and Complexity Trade-Offs",
+              "order": 76
+            },
+            {
+              "title": "Architecture Diagrams: Context, Container and Component",
+              "order": 77
+            },
+            {
+              "title": "Sequence Diagrams and Data Flow Diagrams",
+              "order": 78
+            },
+            {
+              "title": "Requirements: Functional and Non-Functional",
+              "order": 79
+            },
+            {
+              "title": "Estimating Users, Requests, Storage and Bandwidth",
+              "order": 80
+            },
+            {
+              "title": "Design a URL Shortener",
+              "order": 81
+            },
+            {
+              "title": "Design a Rate Limiter",
+              "order": 82
+            },
+            {
+              "title": "Design a File Sharing Service",
+              "order": 83
+            },
+            {
+              "title": "Design a Notification Service",
+              "order": 84
+            },
+            {
+              "title": "Design a Chat or Real-Time Messaging Service",
+              "order": 85
+            },
+            {
+              "title": "Design a Learning Management System API",
+              "order": 86
+            },
+            {
+              "title": "Review Architecture Decisions and Common Trade-Offs",
+              "order": 87
+            },
+            {
+              "title": "Web Architecture Interview Questions and Case Studies",
+              "order": 88
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

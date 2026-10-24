@@ -1,0 +1,335 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "API & Security",
+      "technologies": [
+        {
+          "name": "REST APIs",
+          "topics": [
+            {
+              "title": "What an API Is and How Clients and Servers Interact",
+              "order": 1
+            },
+            {
+              "title": "REST Architectural Style and Its Constraints",
+              "order": 2
+            },
+            {
+              "title": "Resources, Resource Identifiers and URI Design",
+              "order": 3
+            },
+            {
+              "title": "Resource Naming: Nouns, Plurals and Hierarchies",
+              "order": 4
+            },
+            {
+              "title": "HTTP Methods and Their Semantics",
+              "order": 5
+            },
+            {
+              "title": "Safe and Idempotent HTTP Methods",
+              "order": 6
+            },
+            {
+              "title": "GET Requests and Query Parameters",
+              "order": 7
+            },
+            {
+              "title": "POST for Resource Creation and Commands",
+              "order": 8
+            },
+            {
+              "title": "PUT vs PATCH and Partial Updates",
+              "order": 9
+            },
+            {
+              "title": "DELETE Semantics and Idempotent Outcomes",
+              "order": 10
+            },
+            {
+              "title": "HTTP Status Code Families",
+              "order": 11
+            },
+            {
+              "title": "Choosing Correct Status Codes for APIs",
+              "order": 12
+            },
+            {
+              "title": "Request Headers and Content Negotiation",
+              "order": 13
+            },
+            {
+              "title": "Content-Type vs Accept",
+              "order": 14
+            },
+            {
+              "title": "JSON Request and Response Design",
+              "order": 15
+            },
+            {
+              "title": "Consistent Response and Error Formats",
+              "order": 16
+            },
+            {
+              "title": "HTTP Caching: Cache-Control, ETag and Last-Modified",
+              "order": 17
+            },
+            {
+              "title": "Conditional Requests and 304 Responses",
+              "order": 18
+            },
+            {
+              "title": "Pagination: Offset and Limit",
+              "order": 19
+            },
+            {
+              "title": "Cursor-Based Pagination",
+              "order": 20
+            },
+            {
+              "title": "Filtering, Sorting and Search Parameters",
+              "order": 21
+            },
+            {
+              "title": "Field Selection and Sparse Responses",
+              "order": 22
+            },
+            {
+              "title": "Bulk Operations and Batch APIs",
+              "order": 23
+            },
+            {
+              "title": "API Versioning Strategies",
+              "order": 24
+            },
+            {
+              "title": "Backward Compatibility and Deprecation",
+              "order": 25
+            },
+            {
+              "title": "OpenAPI Specification Fundamentals",
+              "order": 26
+            },
+            {
+              "title": "Documenting Endpoints, Schemas and Examples",
+              "order": 27
+            },
+            {
+              "title": "Authentication vs Authorization",
+              "order": 28
+            },
+            {
+              "title": "API Keys: Use Cases and Limitations",
+              "order": 29
+            },
+            {
+              "title": "Session-Based Authentication for APIs",
+              "order": 30
+            },
+            {
+              "title": "Bearer Tokens and JWT Basics",
+              "order": 31
+            },
+            {
+              "title": "OAuth 2.0 and OpenID Connect Overview",
+              "order": 32
+            },
+            {
+              "title": "Role-Based and Attribute-Based Access Control",
+              "order": 33
+            },
+            {
+              "title": "Object-Level Authorization and IDOR Prevention",
+              "order": 34
+            },
+            {
+              "title": "Input Validation and Schema-Based Contracts",
+              "order": 35
+            },
+            {
+              "title": "Path, Query and Body Validation",
+              "order": 36
+            },
+            {
+              "title": "Consistent Validation Error Responses",
+              "order": 37
+            },
+            {
+              "title": "Rate Limiting and Quota Design",
+              "order": 38
+            },
+            {
+              "title": "Retries, Timeouts and Exponential Backoff",
+              "order": 39
+            },
+            {
+              "title": "Idempotency Keys for Retried POST Requests",
+              "order": 40
+            },
+            {
+              "title": "Concurrency Control with ETags and If-Match",
+              "order": 41
+            },
+            {
+              "title": "Optimistic Locking and Conflict Responses",
+              "order": 42
+            },
+            {
+              "title": "CORS and Browser-Based API Access",
+              "order": 43
+            },
+            {
+              "title": "CSRF Risks for Cookie-Authenticated APIs",
+              "order": 44
+            },
+            {
+              "title": "XSS, Injection and Safe Output Handling",
+              "order": 45
+            },
+            {
+              "title": "SQL and NoSQL Injection Prevention",
+              "order": 46
+            },
+            {
+              "title": "Request Size Limits and Payload Validation",
+              "order": 47
+            },
+            {
+              "title": "File Upload APIs and Object Storage",
+              "order": 48
+            },
+            {
+              "title": "Webhooks: Signing, Verification and Retries",
+              "order": 49
+            },
+            {
+              "title": "Webhook Idempotency and Event Ordering",
+              "order": 50
+            },
+            {
+              "title": "Long-Running Operations and Async Job APIs",
+              "order": 51
+            },
+            {
+              "title": "Polling, Long Polling and Server-Sent Events",
+              "order": 52
+            },
+            {
+              "title": "WebSockets and Real-Time API Design",
+              "order": 53
+            },
+            {
+              "title": "GraphQL and RPC Compared with REST",
+              "order": 54
+            },
+            {
+              "title": "API Gateway and Backend-for-Frontend Patterns",
+              "order": 55
+            },
+            {
+              "title": "Service-to-Service API Authentication",
+              "order": 56
+            },
+            {
+              "title": "REST APIs in Microservices",
+              "order": 57
+            },
+            {
+              "title": "Database Transactions and API Consistency",
+              "order": 58
+            },
+            {
+              "title": "Distributed Workflows and the Saga Pattern",
+              "order": 59
+            },
+            {
+              "title": "API Security: OWASP API Security Risks",
+              "order": 60
+            },
+            {
+              "title": "Secrets, TLS and Sensitive Data Handling",
+              "order": 61
+            },
+            {
+              "title": "Audit Logging and Trace Correlation",
+              "order": 62
+            },
+            {
+              "title": "Observability: Metrics, Logs and Traces",
+              "order": 63
+            },
+            {
+              "title": "API Performance and Response-Time Budgets",
+              "order": 64
+            },
+            {
+              "title": "Compression and Payload Size Optimization",
+              "order": 65
+            },
+            {
+              "title": "Load Testing API Endpoints",
+              "order": 66
+            },
+            {
+              "title": "Contract Testing and Consumer Compatibility",
+              "order": 67
+            },
+            {
+              "title": "Unit, Integration and End-to-End API Testing",
+              "order": 68
+            },
+            {
+              "title": "Mocking External APIs and Test Fixtures",
+              "order": 69
+            },
+            {
+              "title": "API Error Handling and Failure Modes",
+              "order": 70
+            },
+            {
+              "title": "Health, Readiness and Liveness Endpoints",
+              "order": 71
+            },
+            {
+              "title": "Production Deployment and Reverse Proxy Configuration",
+              "order": 72
+            },
+            {
+              "title": "API Documentation and Developer Experience",
+              "order": 73
+            },
+            {
+              "title": "Designing Stable SDK-Friendly Contracts",
+              "order": 74
+            },
+            {
+              "title": "Build a CRUD REST API with Validation",
+              "order": 75
+            },
+            {
+              "title": "Build Pagination, Filtering and Sorting",
+              "order": 76
+            },
+            {
+              "title": "Implement Secure Authentication and Authorization",
+              "order": 77
+            },
+            {
+              "title": "Add Rate Limiting, Idempotency and Request Logging",
+              "order": 78
+            },
+            {
+              "title": "Design and Test a Webhook Receiver",
+              "order": 79
+            },
+            {
+              "title": "REST API Interview Questions and Design Exercises",
+              "order": 80
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

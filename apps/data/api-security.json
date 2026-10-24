@@ -1,0 +1,371 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "API & Security",
+      "technologies": [
+        {
+          "name": "API Security",
+          "topics": [
+            {
+              "title": "Security Fundamentals: Assets, Threats, Risks and Controls",
+              "order": 1
+            },
+            {
+              "title": "Threat Modeling and Trust Boundaries",
+              "order": 2
+            },
+            {
+              "title": "Security Requirements and Secure-by-Design Principles",
+              "order": 3
+            },
+            {
+              "title": "OWASP Top 10 Overview",
+              "order": 4
+            },
+            {
+              "title": "OWASP API Security Top 10 Overview",
+              "order": 5
+            },
+            {
+              "title": "Authentication vs Authorization",
+              "order": 6
+            },
+            {
+              "title": "Least Privilege and Defense in Depth",
+              "order": 7
+            },
+            {
+              "title": "Input Validation and Allowlisting",
+              "order": 8
+            },
+            {
+              "title": "Output Encoding and Context-Aware Escaping",
+              "order": 9
+            },
+            {
+              "title": "SQL Injection and Parameterized Queries",
+              "order": 10
+            },
+            {
+              "title": "NoSQL Injection and Safe Query Construction",
+              "order": 11
+            },
+            {
+              "title": "Command Injection and Safe Process Execution",
+              "order": 12
+            },
+            {
+              "title": "Path Traversal and File Path Validation",
+              "order": 13
+            },
+            {
+              "title": "Server-Side Request Forgery (SSRF)",
+              "order": 14
+            },
+            {
+              "title": "Cross-Site Scripting (XSS): Reflected, Stored and DOM-Based",
+              "order": 15
+            },
+            {
+              "title": "Content Security Policy (CSP)",
+              "order": 16
+            },
+            {
+              "title": "Cross-Site Request Forgery (CSRF)",
+              "order": 17
+            },
+            {
+              "title": "SameSite Cookies and CSRF Defense-in-Depth",
+              "order": 18
+            },
+            {
+              "title": "CORS: Origins, Preflight and Credentialed Requests",
+              "order": 19
+            },
+            {
+              "title": "Clickjacking and Frame Protection",
+              "order": 20
+            },
+            {
+              "title": "HTTP Security Headers and Helmet",
+              "order": 21
+            },
+            {
+              "title": "HTTPS, TLS and Certificate Validation",
+              "order": 22
+            },
+            {
+              "title": "HTTP Strict Transport Security (HSTS)",
+              "order": 23
+            },
+            {
+              "title": "Mixed Content and Secure Contexts",
+              "order": 24
+            },
+            {
+              "title": "Cookie Security: Secure, HttpOnly and SameSite",
+              "order": 25
+            },
+            {
+              "title": "Session Fixation and Session Rotation",
+              "order": 26
+            },
+            {
+              "title": "JWT Verification and Common Token Mistakes",
+              "order": 27
+            },
+            {
+              "title": "OAuth 2.0 and OpenID Connect Security",
+              "order": 28
+            },
+            {
+              "title": "Refresh Token Rotation and Revocation",
+              "order": 29
+            },
+            {
+              "title": "Password Hashing with Argon2id, bcrypt or scrypt",
+              "order": 30
+            },
+            {
+              "title": "Password Reset and Email Verification Security",
+              "order": 31
+            },
+            {
+              "title": "Multi-Factor Authentication and Recovery Risks",
+              "order": 32
+            },
+            {
+              "title": "Brute-Force Protection and Credential Stuffing",
+              "order": 33
+            },
+            {
+              "title": "Rate Limiting by IP, Account and API Key",
+              "order": 34
+            },
+            {
+              "title": "Account Enumeration and Safe Error Messages",
+              "order": 35
+            },
+            {
+              "title": "Secrets Management and Environment Variables",
+              "order": 36
+            },
+            {
+              "title": "Key Rotation and Cryptographic Key Storage",
+              "order": 37
+            },
+            {
+              "title": "Encryption at Rest vs Encryption in Transit",
+              "order": 38
+            },
+            {
+              "title": "Cryptographic Hashes, HMAC and Digital Signatures",
+              "order": 39
+            },
+            {
+              "title": "Secure Randomness and Token Generation",
+              "order": 40
+            },
+            {
+              "title": "File Upload Security and Content-Type Spoofing",
+              "order": 41
+            },
+            {
+              "title": "File Size Limits and Resource Exhaustion",
+              "order": 42
+            },
+            {
+              "title": "Request Body Limits and Denial-of-Service Risks",
+              "order": 43
+            },
+            {
+              "title": "ReDoS and Expensive Regular Expressions",
+              "order": 44
+            },
+            {
+              "title": "Timeouts, Concurrency Limits and Backpressure",
+              "order": 45
+            },
+            {
+              "title": "Dependency Auditing and Supply-Chain Security",
+              "order": 46
+            },
+            {
+              "title": "Lockfiles, Provenance and Package Integrity",
+              "order": 47
+            },
+            {
+              "title": "Safe Logging and Sensitive-Data Redaction",
+              "order": 48
+            },
+            {
+              "title": "PII Handling and Data Minimization",
+              "order": 49
+            },
+            {
+              "title": "Error Handling Without Information Leakage",
+              "order": 50
+            },
+            {
+              "title": "Database Least Privilege and Connection Security",
+              "order": 51
+            },
+            {
+              "title": "Multi-Tenant Data Isolation",
+              "order": 52
+            },
+            {
+              "title": "Object-Level Authorization and IDOR",
+              "order": 53
+            },
+            {
+              "title": "Mass Assignment and Property-Level Authorization",
+              "order": 54
+            },
+            {
+              "title": "Admin Interfaces and Privileged Operations",
+              "order": 55
+            },
+            {
+              "title": "Webhook Signature Verification and Replay Defense",
+              "order": 56
+            },
+            {
+              "title": "Outbound Request Security and SSRF Prevention",
+              "order": 57
+            },
+            {
+              "title": "API Keys: Storage, Scoping and Rotation",
+              "order": 58
+            },
+            {
+              "title": "Service-to-Service Authentication",
+              "order": 59
+            },
+            {
+              "title": "Network Segmentation and Egress Controls",
+              "order": 60
+            },
+            {
+              "title": "Secure File Storage and Download Authorization",
+              "order": 61
+            },
+            {
+              "title": "Audit Logs and Security Event Monitoring",
+              "order": 62
+            },
+            {
+              "title": "Security Metrics, Alerting and Incident Detection",
+              "order": 63
+            },
+            {
+              "title": "Vulnerability Disclosure and Incident Response Basics",
+              "order": 64
+            },
+            {
+              "title": "Backups, Recovery and Ransomware Resilience",
+              "order": 65
+            },
+            {
+              "title": "Security Testing: Unit and Integration Tests",
+              "order": 66
+            },
+            {
+              "title": "Negative Tests for Unauthorized Access",
+              "order": 67
+            },
+            {
+              "title": "Fuzz Testing and Property-Based Testing Overview",
+              "order": 68
+            },
+            {
+              "title": "Static Application Security Testing (SAST)",
+              "order": 69
+            },
+            {
+              "title": "Dynamic Application Security Testing (DAST)",
+              "order": 70
+            },
+            {
+              "title": "Software Composition Analysis (SCA)",
+              "order": 71
+            },
+            {
+              "title": "Dependency and Container Image Scanning",
+              "order": 72
+            },
+            {
+              "title": "Penetration Testing Scope and Safe Methodology",
+              "order": 73
+            },
+            {
+              "title": "Security Review of REST API Contracts",
+              "order": 74
+            },
+            {
+              "title": "Security Review of Express.js and Fastify Apps",
+              "order": 75
+            },
+            {
+              "title": "Browser Security Boundaries and Same-Origin Policy",
+              "order": 76
+            },
+            {
+              "title": "Content-Type Sniffing and X-Content-Type-Options",
+              "order": 77
+            },
+            {
+              "title": "Open Redirects and Unvalidated Redirect Targets",
+              "order": 78
+            },
+            {
+              "title": "HTTP Request Smuggling Overview",
+              "order": 79
+            },
+            {
+              "title": "DNS Rebinding and Host Header Attacks",
+              "order": 80
+            },
+            {
+              "title": "Race Conditions and TOCTOU Vulnerabilities",
+              "order": 81
+            },
+            {
+              "title": "Idempotency and Abuse-Resistant API Design",
+              "order": 82
+            },
+            {
+              "title": "Secure Configuration and Production Hardening",
+              "order": 83
+            },
+            {
+              "title": "Security Checklists for Deployment",
+              "order": 84
+            },
+            {
+              "title": "Build a Threat Model for a REST API",
+              "order": 85
+            },
+            {
+              "title": "Perform a Security Review of an Authentication Flow",
+              "order": 86
+            },
+            {
+              "title": "Test for IDOR, Injection and Rate-Limit Bypass",
+              "order": 87
+            },
+            {
+              "title": "Create a Security Checklist for a Multi-Tenant SaaS",
+              "order": 88
+            },
+            {
+              "title": "API Security Interview Questions and Practical Exercises",
+              "order": 89
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

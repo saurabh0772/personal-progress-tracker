@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "API & Security",
+      "technologies": [
+        {
+          "name": "JWT",
+          "topics": [
+            {
+              "title": "What JWT Is and What Problems It Solves",
+              "order": 1
+            },
+            {
+              "title": "JWT vs Opaque Tokens",
+              "order": 2
+            },
+            {
+              "title": "JWT Structure: Header, Payload and Signature",
+              "order": 3
+            },
+            {
+              "title": "Base64url Encoding and Why JWT Is Not Encrypted by Default",
+              "order": 4
+            },
+            {
+              "title": "Compact Serialization and Token Format",
+              "order": 5
+            },
+            {
+              "title": "Registered, Public and Private Claims",
+              "order": 6
+            },
+            {
+              "title": "iss, sub, aud, exp, nbf, iat and jti Claims",
+              "order": 7
+            },
+            {
+              "title": "Custom Claims and Claim Naming",
+              "order": 8
+            },
+            {
+              "title": "JWT Signing vs Encryption",
+              "order": 9
+            },
+            {
+              "title": "JWS, JWE and Nested JWT Overview",
+              "order": 10
+            },
+            {
+              "title": "MAC-Based Signatures vs Public-Key Signatures",
+              "order": 11
+            },
+            {
+              "title": "HMAC Algorithms and Shared Secrets",
+              "order": 12
+            },
+            {
+              "title": "RSA and ECDSA Signing Basics",
+              "order": 13
+            },
+            {
+              "title": "EdDSA/Ed25519 Overview",
+              "order": 14
+            },
+            {
+              "title": "Choosing an Algorithm and Preventing Algorithm Confusion",
+              "order": 15
+            },
+            {
+              "title": "Key Length, Entropy and Secret Generation",
+              "order": 16
+            },
+            {
+              "title": "Key IDs (kid) and Key Selection",
+              "order": 17
+            },
+            {
+              "title": "Key Rotation and Overlapping Verification Keys",
+              "order": 18
+            },
+            {
+              "title": "JWKS Endpoints and Public-Key Retrieval",
+              "order": 19
+            },
+            {
+              "title": "Token Issuance and Signing Workflow",
+              "order": 20
+            },
+            {
+              "title": "Token Verification Workflow",
+              "order": 21
+            },
+            {
+              "title": "Validating Signature, Algorithm and Key",
+              "order": 22
+            },
+            {
+              "title": "Validating Issuer and Audience",
+              "order": 23
+            },
+            {
+              "title": "Expiration, Not-Before and Clock Skew",
+              "order": 24
+            },
+            {
+              "title": "Handling Missing or Malformed Claims",
+              "order": 25
+            },
+            {
+              "title": "Token Parsing and Safe Error Handling",
+              "order": 26
+            },
+            {
+              "title": "Access Tokens vs ID Tokens vs Refresh Tokens",
+              "order": 27
+            },
+            {
+              "title": "JWTs in OAuth 2.0 and OpenID Connect",
+              "order": 28
+            },
+            {
+              "title": "Bearer Token Semantics",
+              "order": 29
+            },
+            {
+              "title": "Authorization Header and Token Transport",
+              "order": 30
+            },
+            {
+              "title": "Secure Token Storage in Browser Applications",
+              "order": 31
+            },
+            {
+              "title": "JWT in HttpOnly Cookies vs Authorization Headers",
+              "order": 32
+            },
+            {
+              "title": "Cookie Attributes: Secure, HttpOnly and SameSite",
+              "order": 33
+            },
+            {
+              "title": "CSRF Risks with Cookie-Based JWTs",
+              "order": 34
+            },
+            {
+              "title": "XSS Risks and Token Theft",
+              "order": 35
+            },
+            {
+              "title": "Access Token Lifetime and Exposure Trade-Offs",
+              "order": 36
+            },
+            {
+              "title": "Refresh Token Rotation and Reuse Detection",
+              "order": 37
+            },
+            {
+              "title": "Refresh Token Storage and Revocation",
+              "order": 38
+            },
+            {
+              "title": "Logout and JWT Revocation Strategies",
+              "order": 39
+            },
+            {
+              "title": "jti Denylists and Revocation State",
+              "order": 40
+            },
+            {
+              "title": "Short-Lived Tokens and Session Versioning",
+              "order": 41
+            },
+            {
+              "title": "Stateless Validation vs Stateful Revocation",
+              "order": 42
+            },
+            {
+              "title": "JWT Authentication Middleware in Node.js",
+              "order": 43
+            },
+            {
+              "title": "JWT Verification in Express.js",
+              "order": 44
+            },
+            {
+              "title": "JWT Verification in Fastify",
+              "order": 45
+            },
+            {
+              "title": "JWT Use in Next.js Server Components and Route Handlers",
+              "order": 46
+            },
+            {
+              "title": "JWT Claims vs Authorization Policy",
+              "order": 47
+            },
+            {
+              "title": "Role and Permission Claims: Risks and Staleness",
+              "order": 48
+            },
+            {
+              "title": "Multi-Tenant Claims and Tenant Validation",
+              "order": 49
+            },
+            {
+              "title": "Service-to-Service JWT Authentication",
+              "order": 50
+            },
+            {
+              "title": "Signed Webhooks and JWT-Based Assertions",
+              "order": 51
+            },
+            {
+              "title": "JWT Validation Libraries and Secure Configuration",
+              "order": 52
+            },
+            {
+              "title": "JWKS Caching and Key Refresh",
+              "order": 53
+            },
+            {
+              "title": "Handling Key Rotation and Unknown kid Values",
+              "order": 54
+            },
+            {
+              "title": "Token Replay and Proof-of-Possession Overview",
+              "order": 55
+            },
+            {
+              "title": "DPoP and Sender-Constrained Tokens Overview",
+              "order": 56
+            },
+            {
+              "title": "Mutual TLS-Bound Access Tokens Overview",
+              "order": 57
+            },
+            {
+              "title": "JWTs in Mobile and Public Clients",
+              "order": 58
+            },
+            {
+              "title": "JWT Size, Header Limits and Performance",
+              "order": 59
+            },
+            {
+              "title": "Sensitive Data and Privacy in Claims",
+              "order": 60
+            },
+            {
+              "title": "Preventing Algorithm and Key Confusion Attacks",
+              "order": 61
+            },
+            {
+              "title": "Preventing None-Algorithm Acceptance",
+              "order": 62
+            },
+            {
+              "title": "Preventing Audience and Issuer Confusion",
+              "order": 63
+            },
+            {
+              "title": "Clock Synchronization and Expiry Edge Cases",
+              "order": 64
+            },
+            {
+              "title": "Logging JWT Errors Without Leaking Tokens",
+              "order": 65
+            },
+            {
+              "title": "Testing Valid, Expired, Tampered and Wrong-Audience Tokens",
+              "order": 66
+            },
+            {
+              "title": "Testing Key Rotation and Revocation",
+              "order": 67
+            },
+            {
+              "title": "Threat Modeling JWT-Based Authentication",
+              "order": 68
+            },
+            {
+              "title": "Common JWT Implementation Mistakes",
+              "order": 69
+            },
+            {
+              "title": "JWT vs Server-Side Sessions: Decision Criteria",
+              "order": 70
+            },
+            {
+              "title": "Build a Secure Access-Token Verification Layer",
+              "order": 71
+            },
+            {
+              "title": "Implement Access and Refresh Token Rotation",
+              "order": 72
+            },
+            {
+              "title": "Add Key Rotation and JWKS Verification",
+              "order": 73
+            },
+            {
+              "title": "JWT Interview Questions and Security Exercises",
+              "order": 74
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

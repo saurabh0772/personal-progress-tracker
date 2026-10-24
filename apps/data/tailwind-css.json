@@ -1,0 +1,319 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Frontend Development",
+      "technologies": [
+        {
+          "name": "Tailwind CSS",
+          "topics": [
+            {
+              "title": "What Tailwind CSS Is and Utility-First Design",
+              "order": 1
+            },
+            {
+              "title": "Installing Tailwind CSS in a Vite Project",
+              "order": 2
+            },
+            {
+              "title": "Choosing the Correct Setup for the Installed Tailwind Version",
+              "order": 3
+            },
+            {
+              "title": "Tailwind CSS v3 vs v4: Important Configuration Differences",
+              "order": 4
+            },
+            {
+              "title": "Project Configuration and Build Integration",
+              "order": 5
+            },
+            {
+              "title": "Using Utility Classes in HTML and JSX",
+              "order": 6
+            },
+            {
+              "title": "Responsive Design and Mobile-First Breakpoints",
+              "order": 7
+            },
+            {
+              "title": "Hover, Focus, Active and Other State Variants",
+              "order": 8
+            },
+            {
+              "title": "Group and Peer Variants",
+              "order": 9
+            },
+            {
+              "title": "Dark Mode Strategies",
+              "order": 10
+            },
+            {
+              "title": "Customizing Theme Tokens and Design Values",
+              "order": 11
+            },
+            {
+              "title": "Colors, Opacity and Color Palette Usage",
+              "order": 12
+            },
+            {
+              "title": "Spacing Scale and Consistent Layout",
+              "order": 13
+            },
+            {
+              "title": "Width, Height, Min/Max and Sizing Utilities",
+              "order": 14
+            },
+            {
+              "title": "Margin, Padding and Space Between Elements",
+              "order": 15
+            },
+            {
+              "title": "Display, Visibility and Screen Reader Utilities",
+              "order": 16
+            },
+            {
+              "title": "Positioning, Inset and z-index",
+              "order": 17
+            },
+            {
+              "title": "Flexbox Utilities and Alignment",
+              "order": 18
+            },
+            {
+              "title": "Grid Columns, Rows and Grid Placement",
+              "order": 19
+            },
+            {
+              "title": "Gap, Order and Layout Composition",
+              "order": 20
+            },
+            {
+              "title": "Container Widths and Responsive Containers",
+              "order": 21
+            },
+            {
+              "title": "Typography: Font Family, Size, Weight and Line Height",
+              "order": 22
+            },
+            {
+              "title": "Text Alignment, Wrapping, Truncation and Overflow",
+              "order": 23
+            },
+            {
+              "title": "Backgrounds, Gradients and Background Position",
+              "order": 24
+            },
+            {
+              "title": "Borders, Dividers and Border Radius",
+              "order": 25
+            },
+            {
+              "title": "Shadows, Rings and Outlines",
+              "order": 26
+            },
+            {
+              "title": "Opacity, Blend Modes and Filters",
+              "order": 27
+            },
+            {
+              "title": "Transforms, Transitions and Animation Utilities",
+              "order": 28
+            },
+            {
+              "title": "Reduced Motion and Accessible Animation",
+              "order": 29
+            },
+            {
+              "title": "Aspect Ratio, Object Fit and Object Position",
+              "order": 30
+            },
+            {
+              "title": "Overflow, Scrolling and Scroll Snap",
+              "order": 31
+            },
+            {
+              "title": "Lists, Tables and Form Control Styling",
+              "order": 32
+            },
+            {
+              "title": "Focus Rings and Keyboard Accessibility",
+              "order": 33
+            },
+            {
+              "title": "Screen Reader-Only Content and Semantic HTML",
+              "order": 34
+            },
+            {
+              "title": "Arbitrary Values and Arbitrary Variants",
+              "order": 35
+            },
+            {
+              "title": "Applying Conditional Classes in React",
+              "order": 36
+            },
+            {
+              "title": "Reusable Class Patterns and Component Extraction",
+              "order": 37
+            },
+            {
+              "title": "Using clsx and classnames",
+              "order": 38
+            },
+            {
+              "title": "Using tailwind-merge to Resolve Conflicting Utilities",
+              "order": 39
+            },
+            {
+              "title": "Building Reusable UI Components",
+              "order": 40
+            },
+            {
+              "title": "Composition Patterns for Buttons, Cards and Forms",
+              "order": 41
+            },
+            {
+              "title": "Design Tokens and Consistent Visual Systems",
+              "order": 42
+            },
+            {
+              "title": "Custom CSS Alongside Tailwind",
+              "order": 43
+            },
+            {
+              "title": "CSS Variables and Theme Variables",
+              "order": 44
+            },
+            {
+              "title": "Custom Utilities, Variants and Plugins",
+              "order": 45
+            },
+            {
+              "title": "Tailwind Directives and CSS-First Configuration",
+              "order": 46
+            },
+            {
+              "title": "Preflight and Base Style Resets",
+              "order": 47
+            },
+            {
+              "title": "Content Detection and Source Scanning",
+              "order": 48
+            },
+            {
+              "title": "Safelisting or Explicitly Registering Dynamic Classes",
+              "order": 49
+            },
+            {
+              "title": "Handling Dynamic Class Names Safely",
+              "order": 50
+            },
+            {
+              "title": "Third-Party Component Libraries and Tailwind Integration",
+              "order": 51
+            },
+            {
+              "title": "Forms and Validation States",
+              "order": 52
+            },
+            {
+              "title": "Responsive Navigation and Mobile Menus",
+              "order": 53
+            },
+            {
+              "title": "Responsive Tables and Data-Dense Layouts",
+              "order": 54
+            },
+            {
+              "title": "Building Accessible Dialogs and Dropdowns",
+              "order": 55
+            },
+            {
+              "title": "Tailwind with React and TypeScript",
+              "order": 56
+            },
+            {
+              "title": "Tailwind with Next.js App Router",
+              "order": 57
+            },
+            {
+              "title": "Tailwind with Server and Client Components",
+              "order": 58
+            },
+            {
+              "title": "Styling Component States from Application Data",
+              "order": 59
+            },
+            {
+              "title": "Container Queries and Component-Level Responsiveness",
+              "order": 60
+            },
+            {
+              "title": "CSS Grid and Flexbox: Choosing the Right Utility Pattern",
+              "order": 61
+            },
+            {
+              "title": "Performance and Production CSS Output",
+              "order": 62
+            },
+            {
+              "title": "Build Tool Integration and Production Builds",
+              "order": 63
+            },
+            {
+              "title": "Debugging Missing or Conflicting Styles",
+              "order": 64
+            },
+            {
+              "title": "Using Browser DevTools to Inspect Generated CSS",
+              "order": 65
+            },
+            {
+              "title": "Common Utility-Class Anti-Patterns",
+              "order": 66
+            },
+            {
+              "title": "Managing Large Class Lists and Readability",
+              "order": 67
+            },
+            {
+              "title": "Naming and Organizing Shared Components",
+              "order": 68
+            },
+            {
+              "title": "Version Upgrades and Migration Strategy",
+              "order": 69
+            },
+            {
+              "title": "Testing Visual States and Responsive Behavior",
+              "order": 70
+            },
+            {
+              "title": "Accessibility Audit: Contrast, Focus and Motion",
+              "order": 71
+            },
+            {
+              "title": "Build a Responsive Dashboard UI",
+              "order": 72
+            },
+            {
+              "title": "Build a Reusable Form and Validation UI",
+              "order": 73
+            },
+            {
+              "title": "Create a Small Design System with Theme Tokens",
+              "order": 74
+            },
+            {
+              "title": "Refactor Repeated Utilities into Maintainable Components",
+              "order": 75
+            },
+            {
+              "title": "Tailwind CSS Interview Questions and Practical Exercises",
+              "order": 76
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

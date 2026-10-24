@@ -1,0 +1,367 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Backend Development",
+      "technologies": [
+        {
+          "name": "Fastify",
+          "topics": [
+            {
+              "title": "Fastify Overview and Design Philosophy",
+              "order": 1
+            },
+            {
+              "title": "Fastify vs Express: Architectural Differences",
+              "order": 2
+            },
+            {
+              "title": "Creating a Fastify Project and Starting a Server",
+              "order": 3
+            },
+            {
+              "title": "Fastify Instance, Server Lifecycle and Ready Hooks",
+              "order": 4
+            },
+            {
+              "title": "Route Definitions and HTTP Methods",
+              "order": 5
+            },
+            {
+              "title": "Route Parameters, Query Strings and Request Bodies",
+              "order": 6
+            },
+            {
+              "title": "Request and Reply Objects",
+              "order": 7
+            },
+            {
+              "title": "Sending Responses and Setting Status Codes",
+              "order": 8
+            },
+            {
+              "title": "Route Configuration and Per-Route Options",
+              "order": 9
+            },
+            {
+              "title": "JSON Schema for Request Validation",
+              "order": 10
+            },
+            {
+              "title": "Schema-Based Response Serialization",
+              "order": 11
+            },
+            {
+              "title": "Validation and Serialization Performance",
+              "order": 12
+            },
+            {
+              "title": "Schema Reuse with Shared Schemas",
+              "order": 13
+            },
+            {
+              "title": "Type Providers and Type Inference",
+              "order": 14
+            },
+            {
+              "title": "Fastify with TypeScript",
+              "order": 15
+            },
+            {
+              "title": "Using Zod with Fastify",
+              "order": 16
+            },
+            {
+              "title": "Hooks and Request Lifecycle",
+              "order": 17
+            },
+            {
+              "title": "Choosing the Correct Hook",
+              "order": 18
+            },
+            {
+              "title": "Async Hooks and Error Propagation",
+              "order": 19
+            },
+            {
+              "title": "Plugins and Encapsulation",
+              "order": 20
+            },
+            {
+              "title": "Registering Plugins and Plugin Options",
+              "order": 21
+            },
+            {
+              "title": "Decorators: decorate, decorateRequest and decorateReply",
+              "order": 22
+            },
+            {
+              "title": "Encapsulation Context and Plugin Scope",
+              "order": 23
+            },
+            {
+              "title": "Plugin Dependencies and fastify-plugin",
+              "order": 24
+            },
+            {
+              "title": "Route Prefixes and Modular APIs",
+              "order": 25
+            },
+            {
+              "title": "Custom Content-Type Parsers",
+              "order": 26
+            },
+            {
+              "title": "Multipart and File Upload Handling",
+              "order": 27
+            },
+            {
+              "title": "Static File Serving",
+              "order": 28
+            },
+            {
+              "title": "Centralized Error Handling",
+              "order": 29
+            },
+            {
+              "title": "Custom Error Types and Error Codes",
+              "order": 30
+            },
+            {
+              "title": "Not-Found Handling",
+              "order": 31
+            },
+            {
+              "title": "Async Route Handlers and Promise Rejections",
+              "order": 32
+            },
+            {
+              "title": "Logging with Pino",
+              "order": 33
+            },
+            {
+              "title": "Request IDs and Correlation IDs",
+              "order": 34
+            },
+            {
+              "title": "Redacting Secrets from Logs",
+              "order": 35
+            },
+            {
+              "title": "Environment Configuration and Startup Validation",
+              "order": 36
+            },
+            {
+              "title": "Graceful Shutdown and Close Hooks",
+              "order": 37
+            },
+            {
+              "title": "Health Checks and Readiness Endpoints",
+              "order": 38
+            },
+            {
+              "title": "REST API Resource Design",
+              "order": 39
+            },
+            {
+              "title": "Consistent API Error Response Shapes",
+              "order": 40
+            },
+            {
+              "title": "Pagination, Filtering and Sorting",
+              "order": 41
+            },
+            {
+              "title": "API Versioning and Backward Compatibility",
+              "order": 42
+            },
+            {
+              "title": "Authentication vs Authorization",
+              "order": 43
+            },
+            {
+              "title": "Session and Cookie Authentication",
+              "order": 44
+            },
+            {
+              "title": "JWT Verification and Token Lifecycle",
+              "order": 45
+            },
+            {
+              "title": "Role-Based Access Control",
+              "order": 46
+            },
+            {
+              "title": "Object-Level Authorization and Tenant Isolation",
+              "order": 47
+            },
+            {
+              "title": "CORS Configuration",
+              "order": 48
+            },
+            {
+              "title": "Security Headers and Helmet Integration",
+              "order": 49
+            },
+            {
+              "title": "Rate Limiting and Abuse Prevention",
+              "order": 50
+            },
+            {
+              "title": "CSRF, XSS and Injection Risks",
+              "order": 51
+            },
+            {
+              "title": "Input Validation and Trust Boundaries",
+              "order": 52
+            },
+            {
+              "title": "Password Hashing and Credential Handling",
+              "order": 53
+            },
+            {
+              "title": "PostgreSQL Integration and Connection Lifecycle",
+              "order": 54
+            },
+            {
+              "title": "MongoDB Integration and Mongoose",
+              "order": 55
+            },
+            {
+              "title": "Redis Integration and Cache-Aside",
+              "order": 56
+            },
+            {
+              "title": "Database Transactions and Idempotency",
+              "order": 57
+            },
+            {
+              "title": "Background Jobs with BullMQ",
+              "order": 58
+            },
+            {
+              "title": "Webhook Verification and Retry Safety",
+              "order": 59
+            },
+            {
+              "title": "WebSockets and Real-Time Plugins",
+              "order": 60
+            },
+            {
+              "title": "OpenAPI and Swagger Documentation",
+              "order": 61
+            },
+            {
+              "title": "Generating API Schemas and Documentation",
+              "order": 62
+            },
+            {
+              "title": "Testing with fastify.inject",
+              "order": 63
+            },
+            {
+              "title": "Unit Testing Route Handlers and Services",
+              "order": 64
+            },
+            {
+              "title": "Integration Testing with a Test Database",
+              "order": 65
+            },
+            {
+              "title": "Testing Authentication and Authorization",
+              "order": 66
+            },
+            {
+              "title": "Testing Validation and Error Cases",
+              "order": 67
+            },
+            {
+              "title": "Mocking External Services",
+              "order": 68
+            },
+            {
+              "title": "Test Isolation and Cleanup",
+              "order": 69
+            },
+            {
+              "title": "Performance Benchmarking and Autocannon",
+              "order": 70
+            },
+            {
+              "title": "Profiling Slow Routes and Serialization",
+              "order": 71
+            },
+            {
+              "title": "Event Loop Blocking and Async Work",
+              "order": 72
+            },
+            {
+              "title": "Connection Pooling and Resource Limits",
+              "order": 73
+            },
+            {
+              "title": "Timeouts, Retries and External Dependency Failures",
+              "order": 74
+            },
+            {
+              "title": "Observability: Metrics, Traces and Logs",
+              "order": 75
+            },
+            {
+              "title": "Dependency Auditing and Supply-Chain Security",
+              "order": 76
+            },
+            {
+              "title": "Secrets Management and Secure Configuration",
+              "order": 77
+            },
+            {
+              "title": "Deployment Behind Reverse Proxies",
+              "order": 78
+            },
+            {
+              "title": "Trust Proxy and Forwarded Headers",
+              "order": 79
+            },
+            {
+              "title": "Containers and Production Runtime",
+              "order": 80
+            },
+            {
+              "title": "Horizontal Scaling and Stateless Instances",
+              "order": 81
+            },
+            {
+              "title": "Fastify Version Upgrades and Plugin Compatibility",
+              "order": 82
+            },
+            {
+              "title": "Common Fastify Anti-Patterns",
+              "order": 83
+            },
+            {
+              "title": "Build a Schema-Validated CRUD API",
+              "order": 84
+            },
+            {
+              "title": "Build Authentication with RBAC",
+              "order": 85
+            },
+            {
+              "title": "Add Redis Caching and Distributed Rate Limiting",
+              "order": 86
+            },
+            {
+              "title": "Document and Test an API End to End",
+              "order": 87
+            },
+            {
+              "title": "Fastify Interview Questions and Practical Exercises",
+              "order": 88
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

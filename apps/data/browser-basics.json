@@ -1,0 +1,367 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Web Fundamentals",
+      "technologies": [
+        {
+          "name": "Browser Basics",
+          "topics": [
+            {
+              "title": "Browser Architecture: UI, Browser Engine, Renderer and Networking",
+              "order": 1
+            },
+            {
+              "title": "Tabs, Processes, Threads and Site Isolation Basics",
+              "order": 2
+            },
+            {
+              "title": "Browser Rendering Pipeline Overview",
+              "order": 3
+            },
+            {
+              "title": "HTML Parsing and DOM Construction",
+              "order": 4
+            },
+            {
+              "title": "CSS Parsing and CSSOM Construction",
+              "order": 5
+            },
+            {
+              "title": "Render Tree, Layout, Paint and Compositing",
+              "order": 6
+            },
+            {
+              "title": "Critical Rendering Path and First Render",
+              "order": 7
+            },
+            {
+              "title": "JavaScript Parsing, Compilation and Execution",
+              "order": 8
+            },
+            {
+              "title": "How Script Tags Affect Parsing and Rendering",
+              "order": 9
+            },
+            {
+              "title": "DOMContentLoaded, load and pageshow Events",
+              "order": 10
+            },
+            {
+              "title": "Event Loop in the Browser",
+              "order": 11
+            },
+            {
+              "title": "Tasks, Microtasks and requestAnimationFrame",
+              "order": 12
+            },
+            {
+              "title": "Timers, Throttling and Background Tabs",
+              "order": 13
+            },
+            {
+              "title": "DOM Tree, Nodes and Element Relationships",
+              "order": 14
+            },
+            {
+              "title": "DOM Selection, Mutation and Traversal",
+              "order": 15
+            },
+            {
+              "title": "Event Propagation: Capture, Target and Bubble",
+              "order": 16
+            },
+            {
+              "title": "Default Actions, preventDefault and stopPropagation",
+              "order": 17
+            },
+            {
+              "title": "Event Delegation and Dynamic Elements",
+              "order": 18
+            },
+            {
+              "title": "Pointer, Mouse, Keyboard and Touch Events",
+              "order": 19
+            },
+            {
+              "title": "Focus Management and Keyboard Navigation",
+              "order": 20
+            },
+            {
+              "title": "Browser APIs and Web Platform Standards",
+              "order": 21
+            },
+            {
+              "title": "Fetch, XMLHttpRequest and Request Lifecycle",
+              "order": 22
+            },
+            {
+              "title": "HTTP Request and Response Basics",
+              "order": 23
+            },
+            {
+              "title": "DNS, TCP, TLS and HTTPS from the Browser",
+              "order": 24
+            },
+            {
+              "title": "HTTP/1.1, HTTP/2 and HTTP/3 Overview",
+              "order": 25
+            },
+            {
+              "title": "HTTP Methods, Status Codes and Headers",
+              "order": 26
+            },
+            {
+              "title": "Cookies: Domain, Path, Secure, HttpOnly and SameSite",
+              "order": 27
+            },
+            {
+              "title": "LocalStorage and SessionStorage",
+              "order": 28
+            },
+            {
+              "title": "IndexedDB and Client-Side Structured Storage",
+              "order": 29
+            },
+            {
+              "title": "Cache Storage and the Cache API",
+              "order": 30
+            },
+            {
+              "title": "Browser Cache: Freshness, Validation and Cache-Control",
+              "order": 31
+            },
+            {
+              "title": "Service Workers and Offline Web Apps",
+              "order": 32
+            },
+            {
+              "title": "Web Workers and Dedicated Workers",
+              "order": 33
+            },
+            {
+              "title": "Shared Workers and Worker Communication",
+              "order": 34
+            },
+            {
+              "title": "BroadcastChannel and Cross-Tab Communication",
+              "order": 35
+            },
+            {
+              "title": "WebSockets and Browser Real-Time Connections",
+              "order": 36
+            },
+            {
+              "title": "Server-Sent Events",
+              "order": 37
+            },
+            {
+              "title": "WebRTC Browser API Overview",
+              "order": 38
+            },
+            {
+              "title": "Geolocation, Permissions and User Consent",
+              "order": 39
+            },
+            {
+              "title": "Clipboard, Notifications and Other Permissioned APIs",
+              "order": 40
+            },
+            {
+              "title": "File, Blob, Object URL and Download APIs",
+              "order": 41
+            },
+            {
+              "title": "Drag and Drop and DataTransfer",
+              "order": 42
+            },
+            {
+              "title": "History API and Client-Side Navigation",
+              "order": 43
+            },
+            {
+              "title": "URL, URLSearchParams and Location",
+              "order": 44
+            },
+            {
+              "title": "Navigation Timing and Performance APIs",
+              "order": 45
+            },
+            {
+              "title": "Resource Timing and Long Tasks",
+              "order": 46
+            },
+            {
+              "title": "MutationObserver, ResizeObserver and IntersectionObserver",
+              "order": 47
+            },
+            {
+              "title": "requestAnimationFrame and Smooth UI Updates",
+              "order": 48
+            },
+            {
+              "title": "Web Animations API Overview",
+              "order": 49
+            },
+            {
+              "title": "Canvas and SVG API Basics",
+              "order": 50
+            },
+            {
+              "title": "Audio and Video Media APIs",
+              "order": 51
+            },
+            {
+              "title": "Responsive Viewport, DPR and Device Pixel Ratio",
+              "order": 52
+            },
+            {
+              "title": "Browser Zoom, Scaling and High-DPI Rendering",
+              "order": 53
+            },
+            {
+              "title": "Responsive Design and Feature Detection",
+              "order": 54
+            },
+            {
+              "title": "Cross-Browser Differences and Compatibility",
+              "order": 55
+            },
+            {
+              "title": "Feature Detection vs User-Agent Detection",
+              "order": 56
+            },
+            {
+              "title": "Progressive Enhancement and Graceful Degradation",
+              "order": 57
+            },
+            {
+              "title": "Permissions Policy and Feature Availability",
+              "order": 58
+            },
+            {
+              "title": "Same-Origin Policy",
+              "order": 59
+            },
+            {
+              "title": "CORS: Origins, Preflight and Credentials",
+              "order": 60
+            },
+            {
+              "title": "Content Security Policy Basics",
+              "order": 61
+            },
+            {
+              "title": "XSS Risks and Safe DOM APIs",
+              "order": 62
+            },
+            {
+              "title": "CSRF and Cookie-Based Authentication Risks",
+              "order": 63
+            },
+            {
+              "title": "Clickjacking and iframe sandboxing",
+              "order": 64
+            },
+            {
+              "title": "Mixed Content and HTTPS Security",
+              "order": 65
+            },
+            {
+              "title": "Secure Contexts and Browser Trust Boundaries",
+              "order": 66
+            },
+            {
+              "title": "Browser Autofill and Form Behavior",
+              "order": 67
+            },
+            {
+              "title": "Accessibility Tree and Assistive Technology",
+              "order": 68
+            },
+            {
+              "title": "Screen Readers, Semantics and Accessible Names",
+              "order": 69
+            },
+            {
+              "title": "Browser DevTools: Elements, Console and Sources",
+              "order": 70
+            },
+            {
+              "title": "Network Panel: Headers, Payloads, Timing and Waterfalls",
+              "order": 71
+            },
+            {
+              "title": "Application/Storage Panel and Cache Inspection",
+              "order": 72
+            },
+            {
+              "title": "Performance Panel and Rendering Diagnostics",
+              "order": 73
+            },
+            {
+              "title": "Memory Panel, Heap Snapshots and Leak Detection",
+              "order": 74
+            },
+            {
+              "title": "Debugging Event Listeners and Async Code",
+              "order": 75
+            },
+            {
+              "title": "Testing Browser Behavior with Automation",
+              "order": 76
+            },
+            {
+              "title": "Browser Compatibility Testing and Feature Support",
+              "order": 77
+            },
+            {
+              "title": "Web Vitals: LCP, INP and CLS",
+              "order": 78
+            },
+            {
+              "title": "Reducing JavaScript, Layout Shifts and Render Blocking",
+              "order": 79
+            },
+            {
+              "title": "Lazy Loading and Resource Prioritization",
+              "order": 80
+            },
+            {
+              "title": "Memory, CPU, Battery and Network Constraints",
+              "order": 81
+            },
+            {
+              "title": "Privacy: Tracking Prevention and Storage Partitioning",
+              "order": 82
+            },
+            {
+              "title": "Third-Party Cookies and Privacy Changes",
+              "order": 83
+            },
+            {
+              "title": "Browser Extensions and Their Security Boundaries",
+              "order": 84
+            },
+            {
+              "title": "Build a Browser Performance Investigation Checklist",
+              "order": 85
+            },
+            {
+              "title": "Debug a CORS and Cookie Authentication Issue",
+              "order": 86
+            },
+            {
+              "title": "Trace a Page Load from Navigation to Rendering",
+              "order": 87
+            },
+            {
+              "title": "Browser Basics Interview Questions and Practical Exercises",
+              "order": 88
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

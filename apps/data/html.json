@@ -1,0 +1,275 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Web Fundamentals",
+      "technologies": [
+        {
+          "name": "HTML",
+          "topics": [
+            {
+              "title": "How the Web Works: Client, Server and Browser",
+              "order": 1
+            },
+            {
+              "title": "HTML Documents and the Standard Page Structure",
+              "order": 2
+            },
+            {
+              "title": "Doctype, html, head and body",
+              "order": 3
+            },
+            {
+              "title": "Elements, Tags, Attributes and Nesting",
+              "order": 4
+            },
+            {
+              "title": "Headings, Paragraphs, Line Breaks and Horizontal Rules",
+              "order": 5
+            },
+            {
+              "title": "Text Semantics: strong, em, mark, code and time",
+              "order": 6
+            },
+            {
+              "title": "Links, Relative URLs and Absolute URLs",
+              "order": 7
+            },
+            {
+              "title": "Images, Alt Text and Responsive Images",
+              "order": 8
+            },
+            {
+              "title": "Audio, Video and Embedded Content",
+              "order": 9
+            },
+            {
+              "title": "Lists: Ordered, Unordered and Description Lists",
+              "order": 10
+            },
+            {
+              "title": "Tables: Caption, Headers, Scope and Accessible Structure",
+              "order": 11
+            },
+            {
+              "title": "Forms: form, label, input, button and textarea",
+              "order": 12
+            },
+            {
+              "title": "Input Types, Name, Value and Autocomplete",
+              "order": 13
+            },
+            {
+              "title": "Required Fields and Built-In Constraint Validation",
+              "order": 14
+            },
+            {
+              "title": "Select, Option, Checkbox and Radio Controls",
+              "order": 15
+            },
+            {
+              "title": "Fieldset, Legend and Grouping Form Controls",
+              "order": 16
+            },
+            {
+              "title": "Form Submission: GET vs POST",
+              "order": 17
+            },
+            {
+              "title": "Semantic HTML and Landmark Elements",
+              "order": 18
+            },
+            {
+              "title": "Page Sections: header, nav, main, section, article and footer",
+              "order": 19
+            },
+            {
+              "title": "Generic Containers: div and span",
+              "order": 20
+            },
+            {
+              "title": "HTML Attributes: id, class, title, hidden and data-*",
+              "order": 21
+            },
+            {
+              "title": "Global Attributes and Contenteditable",
+              "order": 22
+            },
+            {
+              "title": "Boolean Attributes and Attribute Values",
+              "order": 23
+            },
+            {
+              "title": "HTML Entities and Reserved Characters",
+              "order": 24
+            },
+            {
+              "title": "Character Encoding and UTF-8",
+              "order": 25
+            },
+            {
+              "title": "Viewport Meta Tag and Mobile-Friendly Pages",
+              "order": 26
+            },
+            {
+              "title": "Metadata: title, description and Theme Color",
+              "order": 27
+            },
+            {
+              "title": "Favicon and Web App Icons",
+              "order": 28
+            },
+            {
+              "title": "Open Graph and Social Sharing Metadata",
+              "order": 29
+            },
+            {
+              "title": "Script Loading: async, defer and Module Scripts",
+              "order": 30
+            },
+            {
+              "title": "Stylesheet Linking and Resource Hints",
+              "order": 31
+            },
+            {
+              "title": "Details, Summary, Dialog and Native Interactive Elements",
+              "order": 32
+            },
+            {
+              "title": "Native Form Validation and Custom Validation Messages",
+              "order": 33
+            },
+            {
+              "title": "DOM Tree and Element Relationships",
+              "order": 34
+            },
+            {
+              "title": "HTML Parsing and Browser Error Recovery",
+              "order": 35
+            },
+            {
+              "title": "Block, Inline and Flow Content Basics",
+              "order": 36
+            },
+            {
+              "title": "Accessibility Fundamentals and Accessible Names",
+              "order": 37
+            },
+            {
+              "title": "Keyboard Navigation and Focus Order",
+              "order": 38
+            },
+            {
+              "title": "Alt Text and Accessible Image Content",
+              "order": 39
+            },
+            {
+              "title": "Form Labels, Instructions and Error Messages",
+              "order": 40
+            },
+            {
+              "title": "Headings and Screen Reader Navigation",
+              "order": 41
+            },
+            {
+              "title": "ARIA: Appropriate Use and Common Mistakes",
+              "order": 42
+            },
+            {
+              "title": "Language Attributes and Internationalization",
+              "order": 43
+            },
+            {
+              "title": "Tables and Accessible Data Relationships",
+              "order": 44
+            },
+            {
+              "title": "Links vs Buttons: Choosing the Right Element",
+              "order": 45
+            },
+            {
+              "title": "HTML Security: Safe Links and External Targets",
+              "order": 46
+            },
+            {
+              "title": "Embedding Content with iframe and sandbox",
+              "order": 47
+            },
+            {
+              "title": "File Inputs, Downloads and Upload Forms",
+              "order": 48
+            },
+            {
+              "title": "Progress, Meter and Output Elements",
+              "order": 49
+            },
+            {
+              "title": "Responsive Images: picture, srcset and sizes",
+              "order": 50
+            },
+            {
+              "title": "Lazy Loading Images and Iframes",
+              "order": 51
+            },
+            {
+              "title": "HTML Validation and Developer Tools",
+              "order": 52
+            },
+            {
+              "title": "SEO-Friendly Semantic Markup",
+              "order": 53
+            },
+            {
+              "title": "Performance: Avoiding Render-Blocking Resources",
+              "order": 54
+            },
+            {
+              "title": "Forms with JavaScript and FormData",
+              "order": 55
+            },
+            {
+              "title": "Custom Data Attributes and Dataset API",
+              "order": 56
+            },
+            {
+              "title": "Web Components: Custom Elements Overview",
+              "order": 57
+            },
+            {
+              "title": "Shadow DOM and Slots: HTML-Level Concepts",
+              "order": 58
+            },
+            {
+              "title": "Progressive Enhancement and Graceful Degradation",
+              "order": 59
+            },
+            {
+              "title": "Cross-Browser HTML Behavior and Compatibility",
+              "order": 60
+            },
+            {
+              "title": "Common HTML Mistakes and Debugging",
+              "order": 61
+            },
+            {
+              "title": "Build an Accessible Multi-Section Web Page",
+              "order": 62
+            },
+            {
+              "title": "Build a Responsive Registration Form",
+              "order": 63
+            },
+            {
+              "title": "Review HTML for Accessibility, Semantics and SEO",
+              "order": 64
+            },
+            {
+              "title": "HTML Interview Questions and Practical Exercises",
+              "order": 65
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

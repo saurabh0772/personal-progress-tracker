@@ -1,0 +1,343 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "API & Security",
+      "technologies": [
+        {
+          "name": "Webhooks",
+          "topics": [
+            {
+              "title": "What Webhooks Are and When to Use Them",
+              "order": 1
+            },
+            {
+              "title": "Webhooks vs Polling, Long Polling and WebSockets",
+              "order": 2
+            },
+            {
+              "title": "Webhook Provider, Sender, Receiver and Event Flow",
+              "order": 3
+            },
+            {
+              "title": "Designing a Webhook Event Contract",
+              "order": 4
+            },
+            {
+              "title": "Event Names, Event IDs, Timestamps and Schema Versioning",
+              "order": 5
+            },
+            {
+              "title": "Choosing Event Payload Contents",
+              "order": 6
+            },
+            {
+              "title": "Minimal Payloads vs Full Resource Snapshots",
+              "order": 7
+            },
+            {
+              "title": "Webhook Endpoint and URL Design",
+              "order": 8
+            },
+            {
+              "title": "HTTP Methods, Headers and Content Types",
+              "order": 9
+            },
+            {
+              "title": "Returning Correct HTTP Status Codes",
+              "order": 10
+            },
+            {
+              "title": "Fast Acknowledgement and Asynchronous Processing",
+              "order": 11
+            },
+            {
+              "title": "Why Webhook Handlers Must Be Idempotent",
+              "order": 12
+            },
+            {
+              "title": "Deduplication with Event IDs",
+              "order": 13
+            },
+            {
+              "title": "Handling Duplicate Deliveries",
+              "order": 14
+            },
+            {
+              "title": "Out-of-Order Event Delivery",
+              "order": 15
+            },
+            {
+              "title": "Retries, Backoff and Retryable Status Codes",
+              "order": 16
+            },
+            {
+              "title": "Delivery Timeouts and Network Failures",
+              "order": 17
+            },
+            {
+              "title": "Dead-Letter Queues and Failed Delivery Recovery",
+              "order": 18
+            },
+            {
+              "title": "Provider Retry Policies and Delivery Guarantees",
+              "order": 19
+            },
+            {
+              "title": "At-Least-Once Delivery and Practical Implications",
+              "order": 20
+            },
+            {
+              "title": "Exactly-Once Processing: Why It Is Difficult",
+              "order": 21
+            },
+            {
+              "title": "Webhook Signature Verification Fundamentals",
+              "order": 22
+            },
+            {
+              "title": "HMAC Signatures and Shared Secrets",
+              "order": 23
+            },
+            {
+              "title": "Verifying Raw Request Bodies Correctly",
+              "order": 24
+            },
+            {
+              "title": "Timestamped Signatures and Replay Protection",
+              "order": 25
+            },
+            {
+              "title": "Secret Rotation and Multiple Active Secrets",
+              "order": 26
+            },
+            {
+              "title": "TLS and HTTPS Requirements",
+              "order": 27
+            },
+            {
+              "title": "Preventing Replay Attacks",
+              "order": 28
+            },
+            {
+              "title": "Authenticating Webhook Sources",
+              "order": 29
+            },
+            {
+              "title": "IP Allowlisting: Benefits and Limitations",
+              "order": 30
+            },
+            {
+              "title": "Preventing SSRF in Outbound Webhook Delivery",
+              "order": 31
+            },
+            {
+              "title": "DNS Rebinding and Destination Validation",
+              "order": 32
+            },
+            {
+              "title": "URL Validation and Blocking Internal Network Targets",
+              "order": 33
+            },
+            {
+              "title": "Request Size Limits and Payload Validation",
+              "order": 34
+            },
+            {
+              "title": "Schema Validation and Unknown Fields",
+              "order": 35
+            },
+            {
+              "title": "Content-Type Validation and Safe Parsing",
+              "order": 36
+            },
+            {
+              "title": "Multi-Tenant Webhook Isolation",
+              "order": 37
+            },
+            {
+              "title": "Per-Tenant Secrets and Endpoint Ownership",
+              "order": 38
+            },
+            {
+              "title": "Webhook Registration and Subscription Management",
+              "order": 39
+            },
+            {
+              "title": "Event Type Filters and Subscription Preferences",
+              "order": 40
+            },
+            {
+              "title": "Endpoint Verification and Challenge Handshakes",
+              "order": 41
+            },
+            {
+              "title": "Webhook Delivery Records and Attempt History",
+              "order": 42
+            },
+            {
+              "title": "Delivery Status Tracking and Retry Scheduling",
+              "order": 43
+            },
+            {
+              "title": "Queue-Based Webhook Processing",
+              "order": 44
+            },
+            {
+              "title": "Using BullMQ for Delivery Jobs",
+              "order": 45
+            },
+            {
+              "title": "Concurrency Limits and Backpressure",
+              "order": 46
+            },
+            {
+              "title": "Rate Limiting Outbound Deliveries",
+              "order": 47
+            },
+            {
+              "title": "Per-Endpoint Fairness and Isolation",
+              "order": 48
+            },
+            {
+              "title": "Circuit Breakers for Unhealthy Endpoints",
+              "order": 49
+            },
+            {
+              "title": "Retry Storm Prevention and Jitter",
+              "order": 50
+            },
+            {
+              "title": "Timeouts and Connection Management",
+              "order": 51
+            },
+            {
+              "title": "Payload Signing and Canonicalization Pitfalls",
+              "order": 52
+            },
+            {
+              "title": "JSON Serialization and Signature Consistency",
+              "order": 53
+            },
+            {
+              "title": "Webhook Versioning and Backward Compatibility",
+              "order": 54
+            },
+            {
+              "title": "Schema Evolution and Consumer Compatibility",
+              "order": 55
+            },
+            {
+              "title": "Event Ordering and Sequence Numbers",
+              "order": 56
+            },
+            {
+              "title": "Partitioning Delivery Queues by Endpoint or Tenant",
+              "order": 57
+            },
+            {
+              "title": "Transactional Outbox Pattern",
+              "order": 58
+            },
+            {
+              "title": "CDC and Event-Driven Webhook Publishing",
+              "order": 59
+            },
+            {
+              "title": "Database Transactions and Reliable Event Publication",
+              "order": 60
+            },
+            {
+              "title": "Webhook Delivery vs Domain Event Design",
+              "order": 61
+            },
+            {
+              "title": "Observability: Logs, Metrics and Traces",
+              "order": 62
+            },
+            {
+              "title": "Correlation IDs and Trace Propagation",
+              "order": 63
+            },
+            {
+              "title": "Monitoring Delivery Success, Latency and Retries",
+              "order": 64
+            },
+            {
+              "title": "Alerting on Dead Letters and Repeated Failures",
+              "order": 65
+            },
+            {
+              "title": "Redacting Secrets and Sensitive Payload Data",
+              "order": 66
+            },
+            {
+              "title": "Audit Logs and Compliance Considerations",
+              "order": 67
+            },
+            {
+              "title": "Testing Signature Verification",
+              "order": 68
+            },
+            {
+              "title": "Testing Duplicate and Out-of-Order Events",
+              "order": 69
+            },
+            {
+              "title": "Testing Retries, Timeouts and Dead-Letter Recovery",
+              "order": 70
+            },
+            {
+              "title": "Mock Webhook Providers and Local Development",
+              "order": 71
+            },
+            {
+              "title": "Webhook Tunnels and Safe Development Workflows",
+              "order": 72
+            },
+            {
+              "title": "Load Testing and Delivery Throughput",
+              "order": 73
+            },
+            {
+              "title": "Documentation and Consumer Onboarding",
+              "order": 74
+            },
+            {
+              "title": "Providing Test Events and Replay Tools",
+              "order": 75
+            },
+            {
+              "title": "Manual Redelivery and Operational Recovery",
+              "order": 76
+            },
+            {
+              "title": "Webhook Security Threat Modeling",
+              "order": 77
+            },
+            {
+              "title": "Common Webhook Implementation Mistakes",
+              "order": 78
+            },
+            {
+              "title": "Build a Secure Webhook Receiver",
+              "order": 79
+            },
+            {
+              "title": "Build a Retryable Webhook Delivery Service",
+              "order": 80
+            },
+            {
+              "title": "Add Idempotency, Signatures and Delivery Logs",
+              "order": 81
+            },
+            {
+              "title": "Webhook Interview Questions and Practical Exercises",
+              "order": 82
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

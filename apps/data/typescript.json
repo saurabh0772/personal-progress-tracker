@@ -1,0 +1,379 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Programming Languages",
+      "technologies": [
+        {
+          "name": "TypeScript",
+          "topics": [
+            {
+              "title": "Why TypeScript: Type Safety and JavaScript Relationship",
+              "order": 1
+            },
+            {
+              "title": "Installing TypeScript and Running the Compiler",
+              "order": 2
+            },
+            {
+              "title": "tsconfig.json and Project Configuration",
+              "order": 3
+            },
+            {
+              "title": "Compilation, Transpilation and Target Environments",
+              "order": 4
+            },
+            {
+              "title": "Type Annotations and Type Inference",
+              "order": 5
+            },
+            {
+              "title": "Primitive Types: string, number, boolean, bigint and symbol",
+              "order": 6
+            },
+            {
+              "title": "Arrays, Readonly Arrays and Tuples",
+              "order": 7
+            },
+            {
+              "title": "Object Types and Optional Properties",
+              "order": 8
+            },
+            {
+              "title": "Type Aliases and Interfaces",
+              "order": 9
+            },
+            {
+              "title": "Interface Extension and Type Composition",
+              "order": 10
+            },
+            {
+              "title": "Union Types and Intersection Types",
+              "order": 11
+            },
+            {
+              "title": "Literal Types and as const",
+              "order": 12
+            },
+            {
+              "title": "Enums and Alternatives to Enums",
+              "order": 13
+            },
+            {
+              "title": "any, unknown, never and void",
+              "order": 14
+            },
+            {
+              "title": "null, undefined and strictNullChecks",
+              "order": 15
+            },
+            {
+              "title": "Type Narrowing with typeof and Truthiness",
+              "order": 16
+            },
+            {
+              "title": "Equality, in and instanceof Narrowing",
+              "order": 17
+            },
+            {
+              "title": "Discriminated Unions and Exhaustive Checks",
+              "order": 18
+            },
+            {
+              "title": "Type Guards and User-Defined Predicates",
+              "order": 19
+            },
+            {
+              "title": "Type Assertions and Non-Null Assertions",
+              "order": 20
+            },
+            {
+              "title": "Functions: Parameter and Return Types",
+              "order": 21
+            },
+            {
+              "title": "Optional, Default and Rest Parameters",
+              "order": 22
+            },
+            {
+              "title": "Function Overloads",
+              "order": 23
+            },
+            {
+              "title": "Callable Types and Function Signatures",
+              "order": 24
+            },
+            {
+              "title": "Generics: Functions and Type Parameters",
+              "order": 25
+            },
+            {
+              "title": "Generic Constraints and keyof",
+              "order": 26
+            },
+            {
+              "title": "Generic Interfaces, Types and Classes",
+              "order": 27
+            },
+            {
+              "title": "Generic Defaults and Inference",
+              "order": 28
+            },
+            {
+              "title": "Utility Types: Partial, Required and Readonly",
+              "order": 29
+            },
+            {
+              "title": "Utility Types: Pick, Omit, Record and Exclude",
+              "order": 30
+            },
+            {
+              "title": "Utility Types: Extract, NonNullable, Parameters and ReturnType",
+              "order": 31
+            },
+            {
+              "title": "Indexed Access Types and keyof",
+              "order": 32
+            },
+            {
+              "title": "typeof in Type Positions",
+              "order": 33
+            },
+            {
+              "title": "Mapped Types and Property Modifiers",
+              "order": 34
+            },
+            {
+              "title": "Conditional Types and infer",
+              "order": 35
+            },
+            {
+              "title": "Template Literal Types",
+              "order": 36
+            },
+            {
+              "title": "Recursive Types and Type-Level Patterns",
+              "order": 37
+            },
+            {
+              "title": "Structural Typing and Type Compatibility",
+              "order": 38
+            },
+            {
+              "title": "Variance Basics and Function Type Compatibility",
+              "order": 39
+            },
+            {
+              "title": "Classes, Constructors and Access Modifiers",
+              "order": 40
+            },
+            {
+              "title": "readonly, static, abstract and implements",
+              "order": 41
+            },
+            {
+              "title": "Inheritance, Composition and Polymorphism",
+              "order": 42
+            },
+            {
+              "title": "Getters, Setters and Parameter Properties",
+              "order": 43
+            },
+            {
+              "title": "TypeScript Modules and Module Resolution",
+              "order": 44
+            },
+            {
+              "title": "Named, Default and Type-Only Imports/Exports",
+              "order": 45
+            },
+            {
+              "title": "Namespaces and When to Avoid Them",
+              "order": 46
+            },
+            {
+              "title": "Declaration Files and Ambient Declarations",
+              "order": 47
+            },
+            {
+              "title": "Using DefinitelyTyped and @types Packages",
+              "order": 48
+            },
+            {
+              "title": "Augmenting Modules and Global Types",
+              "order": 49
+            },
+            {
+              "title": "Working with JavaScript Libraries",
+              "order": 50
+            },
+            {
+              "title": "TypeScript with Node.js and npm",
+              "order": 51
+            },
+            {
+              "title": "ESM and CommonJS Configuration",
+              "order": 52
+            },
+            {
+              "title": "Environment Variables and Process Types",
+              "order": 53
+            },
+            {
+              "title": "Async Functions, Promises and Typed Errors",
+              "order": 54
+            },
+            {
+              "title": "Typing Fetch Responses and External Data",
+              "order": 55
+            },
+            {
+              "title": "Runtime Validation: Why Types Alone Are Not Enough",
+              "order": 56
+            },
+            {
+              "title": "Zod Schemas and Inferred Types",
+              "order": 57
+            },
+            {
+              "title": "TypeScript with Express.js or Fastify",
+              "order": 58
+            },
+            {
+              "title": "Request, Response and Middleware Types",
+              "order": 59
+            },
+            {
+              "title": "TypeScript with PostgreSQL or MongoDB",
+              "order": 60
+            },
+            {
+              "title": "TypeScript with React: Props and Events",
+              "order": 61
+            },
+            {
+              "title": "Typing Hooks, State and Refs in React",
+              "order": 62
+            },
+            {
+              "title": "Typing Context, Reducers and Custom Hooks",
+              "order": 63
+            },
+            {
+              "title": "Typing Forms and API State",
+              "order": 64
+            },
+            {
+              "title": "Generics in Reusable React Components",
+              "order": 65
+            },
+            {
+              "title": "TypeScript with Redux Toolkit",
+              "order": 66
+            },
+            {
+              "title": "Typing Tests, Mocks and Test Fixtures",
+              "order": 67
+            },
+            {
+              "title": "tsconfig Strictness and Compiler Diagnostics",
+              "order": 68
+            },
+            {
+              "title": "Linting, Formatting and Type-Aware Rules",
+              "order": 69
+            },
+            {
+              "title": "Build Tools: tsc, tsx, ts-node and Bundlers",
+              "order": 70
+            },
+            {
+              "title": "Source Maps and Debugging TypeScript",
+              "order": 71
+            },
+            {
+              "title": "Project References and Monorepo Basics",
+              "order": 72
+            },
+            {
+              "title": "Performance: Avoiding Slow Type Checking",
+              "order": 73
+            },
+            {
+              "title": "Common Type Design Mistakes",
+              "order": 74
+            },
+            {
+              "title": "Safe Migration from JavaScript to TypeScript",
+              "order": 75
+            },
+            {
+              "title": "Typing Existing APIs and Legacy Code",
+              "order": 76
+            },
+            {
+              "title": "Type-Safe Error Handling Patterns",
+              "order": 77
+            },
+            {
+              "title": "Branded Types and Nominal-Type Workarounds",
+              "order": 78
+            },
+            {
+              "title": "Discriminated Result Types for Success and Failure",
+              "order": 79
+            },
+            {
+              "title": "Type-Safe Configuration and Feature Flags",
+              "order": 80
+            },
+            {
+              "title": "API Contract Sharing Between Frontend and Backend",
+              "order": 81
+            },
+            {
+              "title": "TypeScript Security Boundaries and Input Validation",
+              "order": 82
+            },
+            {
+              "title": "Common Interview Questions: Types and Narrowing",
+              "order": 83
+            },
+            {
+              "title": "Common Interview Questions: Generics and Utility Types",
+              "order": 84
+            },
+            {
+              "title": "Common Interview Questions: Conditional and Mapped Types",
+              "order": 85
+            },
+            {
+              "title": "Practical Exercises: Model a Domain with Types",
+              "order": 86
+            },
+            {
+              "title": "Practical Exercises: Build Generic Utilities",
+              "order": 87
+            },
+            {
+              "title": "Practical Exercises: Type an Existing JavaScript Module",
+              "order": 88
+            },
+            {
+              "title": "Build a Type-Safe REST API",
+              "order": 89
+            },
+            {
+              "title": "Build a React Client with Typed API Responses",
+              "order": 90
+            },
+            {
+              "title": "Review and Refactor a TypeScript Codebase",
+              "order": 91
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

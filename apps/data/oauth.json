@@ -1,0 +1,335 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "API & Security",
+      "technologies": [
+        {
+          "name": "OAuth",
+          "topics": [
+            {
+              "title": "OAuth 2.0 Purpose, Roles and Terminology",
+              "order": 1
+            },
+            {
+              "title": "Resource Owner, Client, Authorization Server and Resource Server",
+              "order": 2
+            },
+            {
+              "title": "OAuth 2.0 Is Authorization, Not an Authentication Protocol",
+              "order": 3
+            },
+            {
+              "title": "OAuth vs OpenID Connect",
+              "order": 4
+            },
+            {
+              "title": "Protected Resources, Scopes and Permissions",
+              "order": 5
+            },
+            {
+              "title": "Authorization Code Grant Flow",
+              "order": 6
+            },
+            {
+              "title": "Authorization Code Flow Step by Step",
+              "order": 7
+            },
+            {
+              "title": "PKCE: Code Verifier and Code Challenge",
+              "order": 8
+            },
+            {
+              "title": "Public vs Confidential Clients",
+              "order": 9
+            },
+            {
+              "title": "Client Authentication Methods",
+              "order": 10
+            },
+            {
+              "title": "Redirect URI Registration and Exact Matching",
+              "order": 11
+            },
+            {
+              "title": "State Parameter and CSRF Protection",
+              "order": 12
+            },
+            {
+              "title": "Nonce: Where It Applies and Why",
+              "order": 13
+            },
+            {
+              "title": "Authorization Request Parameters",
+              "order": 14
+            },
+            {
+              "title": "Token Endpoint and Token Requests",
+              "order": 15
+            },
+            {
+              "title": "Access Tokens: Purpose, Audience and Lifetime",
+              "order": 16
+            },
+            {
+              "title": "Refresh Tokens and Offline Access",
+              "order": 17
+            },
+            {
+              "title": "Refresh Token Rotation and Reuse Detection",
+              "order": 18
+            },
+            {
+              "title": "Scope Design and Least Privilege",
+              "order": 19
+            },
+            {
+              "title": "Consent Screens and User Approval",
+              "order": 20
+            },
+            {
+              "title": "OAuth Token Response and Error Responses",
+              "order": 21
+            },
+            {
+              "title": "Bearer Tokens and Token Transport",
+              "order": 22
+            },
+            {
+              "title": "Opaque Tokens vs JWT Access Tokens",
+              "order": 23
+            },
+            {
+              "title": "Token Introspection",
+              "order": 24
+            },
+            {
+              "title": "Token Revocation Endpoint",
+              "order": 25
+            },
+            {
+              "title": "Authorization Server Metadata Discovery",
+              "order": 26
+            },
+            {
+              "title": "OpenID Provider Discovery and JWKS",
+              "order": 27
+            },
+            {
+              "title": "Client Credentials Grant for Machine-to-Machine Access",
+              "order": 28
+            },
+            {
+              "title": "Device Authorization Grant",
+              "order": 29
+            },
+            {
+              "title": "Refresh Token Grant and Current Best Practices",
+              "order": 30
+            },
+            {
+              "title": "Implicit Grant: Legacy Risks and Migration",
+              "order": 31
+            },
+            {
+              "title": "Resource Owner Password Credentials Grant: Why to Avoid",
+              "order": 32
+            },
+            {
+              "title": "OAuth 2.0 Security Best Current Practice",
+              "order": 33
+            },
+            {
+              "title": "OAuth 2.1 Direction and Important Differences",
+              "order": 34
+            },
+            {
+              "title": "OpenID Connect: ID Token and User Identity",
+              "order": 35
+            },
+            {
+              "title": "ID Token vs Access Token",
+              "order": 36
+            },
+            {
+              "title": "UserInfo Endpoint",
+              "order": 37
+            },
+            {
+              "title": "Standard OIDC Scopes and Claims",
+              "order": 38
+            },
+            {
+              "title": "OIDC Discovery and JWKS Validation",
+              "order": 39
+            },
+            {
+              "title": "OIDC State, Nonce and Authentication Request Validation",
+              "order": 40
+            },
+            {
+              "title": "Login, Logout and Session Management with OIDC",
+              "order": 41
+            },
+            {
+              "title": "Single Sign-On and Identity Federation",
+              "order": 42
+            },
+            {
+              "title": "Social Login and Account Linking",
+              "order": 43
+            },
+            {
+              "title": "Multi-Factor Authentication with an Identity Provider",
+              "order": 44
+            },
+            {
+              "title": "Dynamic Client Registration Overview",
+              "order": 45
+            },
+            {
+              "title": "PAR: Pushed Authorization Requests",
+              "order": 46
+            },
+            {
+              "title": "JAR: JWT-Secured Authorization Requests",
+              "order": 47
+            },
+            {
+              "title": "JARM: JWT-Secured Authorization Response Mode",
+              "order": 48
+            },
+            {
+              "title": "DPoP and Sender-Constrained Tokens Overview",
+              "order": 49
+            },
+            {
+              "title": "Mutual TLS for OAuth Clients and Tokens",
+              "order": 50
+            },
+            {
+              "title": "OAuth for Single-Page Applications",
+              "order": 51
+            },
+            {
+              "title": "OAuth for Server-Side Web Applications",
+              "order": 52
+            },
+            {
+              "title": "OAuth for Mobile and Native Applications",
+              "order": 53
+            },
+            {
+              "title": "OAuth for Backend-for-Frontend Architectures",
+              "order": 54
+            },
+            {
+              "title": "OAuth for Service-to-Service APIs",
+              "order": 55
+            },
+            {
+              "title": "OAuth in Node.js Applications",
+              "order": 56
+            },
+            {
+              "title": "OAuth Callback Handling in Express.js",
+              "order": 57
+            },
+            {
+              "title": "OAuth Integration in Fastify",
+              "order": 58
+            },
+            {
+              "title": "OAuth Login in Next.js",
+              "order": 59
+            },
+            {
+              "title": "Secure Token Storage and Browser Threats",
+              "order": 60
+            },
+            {
+              "title": "Cookies, SameSite and CSRF in OAuth Flows",
+              "order": 61
+            },
+            {
+              "title": "XSS Risks and Token Theft",
+              "order": 62
+            },
+            {
+              "title": "Open Redirects and Redirect URI Abuse",
+              "order": 63
+            },
+            {
+              "title": "Mix-Up Attacks and Issuer Validation",
+              "order": 64
+            },
+            {
+              "title": "PKCE Downgrade and Code Interception Risks",
+              "order": 65
+            },
+            {
+              "title": "Confused Deputy and Audience Validation",
+              "order": 66
+            },
+            {
+              "title": "Scope Escalation and Over-Privileged Tokens",
+              "order": 67
+            },
+            {
+              "title": "Secret Management and Client Credential Rotation",
+              "order": 68
+            },
+            {
+              "title": "Signing Keys, JWKS Caching and Key Rotation",
+              "order": 69
+            },
+            {
+              "title": "Clock Skew, Token Expiry and Refresh Edge Cases",
+              "order": 70
+            },
+            {
+              "title": "Logging OAuth Events Without Leaking Tokens",
+              "order": 71
+            },
+            {
+              "title": "Testing Authorization Redirects and Callback Errors",
+              "order": 72
+            },
+            {
+              "title": "Testing PKCE, State, Nonce and Token Validation",
+              "order": 73
+            },
+            {
+              "title": "OAuth Threat Modeling and Security Review",
+              "order": 74
+            },
+            {
+              "title": "Common OAuth Integration Mistakes",
+              "order": 75
+            },
+            {
+              "title": "Choosing an Identity Provider and SDK",
+              "order": 76
+            },
+            {
+              "title": "Build Authorization Code Flow with PKCE",
+              "order": 77
+            },
+            {
+              "title": "Integrate OIDC Login and Protected API Access",
+              "order": 78
+            },
+            {
+              "title": "Implement Service-to-Service Client Credentials",
+              "order": 79
+            },
+            {
+              "title": "OAuth and OIDC Interview Questions and Practical Exercises",
+              "order": 80
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
