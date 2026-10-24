@@ -87,7 +87,15 @@ export async function buildApp(){
     return sendError(reply,500,'INTERNAL_ERROR','Something went wrong');
   });
   const auth=async(req:FastifyRequest,reply:any)=>{
-    try { const token=req.cookies[cookieName]; if(!token) throw new Error('missing'); const payload=await app.jwt.verify<{sub:string}>(token); if(!payload.sub) throw new Error('missing subject'); req.userId=payload.sub; }
+    try {
+      const authHeader = req.headers.authorization;
+      const bearerToken = (authHeader && authHeader.startsWith('Bearer ')) ? authHeader.slice(7).trim() : undefined;
+      const token = bearerToken || req.cookies[cookieName];
+      if(!token) throw new Error('missing');
+      const payload=await app.jwt.verify<{sub:string}>(token);
+      if(!payload.sub) throw new Error('missing subject');
+      req.userId=payload.sub;
+    }
     catch { return sendError(reply,401,'UNAUTHENTICATED','Please log in to continue'); }
   };
   const rawSameSite = (process.env.COOKIE_SAMESITE || '').toLowerCase();
@@ -95,7 +103,11 @@ export async function buildApp(){
     ? (rawSameSite as 'none' | 'lax' | 'strict')
     : (process.env.NODE_ENV === 'production' ? 'lax' : 'lax');
   const cookieSecure = process.env.NODE_ENV === 'production' || cookieSameSite === 'none';
-  const setSession=async(reply:any,userId:string)=>{ const token=app.jwt.sign({sub:userId}); reply.setCookie(cookieName,token,{httpOnly:true,secure:cookieSecure,sameSite:cookieSameSite,path:'/',maxAge:7*24*60*60}); };
+  const setSession=async(reply:any,userId:string)=>{
+    const token=app.jwt.sign({sub:userId});
+    reply.setCookie(cookieName,token,{httpOnly:true,secure:cookieSecure,sameSite:cookieSameSite,path:'/',maxAge:7*24*60*60});
+    return token;
+  };
   const clearSession=(reply:any)=>reply.clearCookie(cookieName,{httpOnly:true,secure:cookieSecure,sameSite:cookieSameSite,path:'/'});
 
   app.get('/api/analytics',{preHandler:auth},async(req)=>{
@@ -118,13 +130,13 @@ export async function buildApp(){
       await tx.insert(categories).values(defaults.map(name=>({userId:user.id,name,slug:slugify(name)})));
       return user;
     });
-    await setSession(reply,created.id); return reply.code(201).send({user:created});
+    const token = await setSession(reply,created.id); return reply.code(201).send({user:created, token});
   });
   app.post('/api/auth/login',{config:{rateLimit:{max:10,timeWindow:'1 minute'}}},async(req,reply)=>{
     const input=loginSchema.parse(req.body); const [user]=await db.select().from(users).where(eq(users.email,input.email)).limit(1);
     const valid=user ? await argon2.verify(user.passwordHash,input.password).catch(()=>false) : false;
     if(!user||!valid) return sendError(reply,401,'INVALID_CREDENTIALS','Email or password is incorrect');
-    await setSession(reply,user.id); return {user:{id:user.id,email:user.email,createdAt:user.createdAt}};
+    const token = await setSession(reply,user.id); return {user:{id:user.id,email:user.email,createdAt:user.createdAt}, token};
   });
   app.post('/api/auth/logout',async(_req,reply)=>{clearSession(reply);return reply.code(204).send();});
   app.get('/api/auth/me',{preHandler:auth},async(req)=>{const [user]=await db.select({id:users.id,email:users.email,createdAt:users.createdAt}).from(users).where(eq(users.id,req.userId)).limit(1);return {user};});
